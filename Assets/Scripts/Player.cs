@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
 
 				Vector3 temp = transform.localScale;
 				temp.x = 1.3f;
+				transform.localScale = temp;
 
 				anim.SetBool("walk",true);
 			}
