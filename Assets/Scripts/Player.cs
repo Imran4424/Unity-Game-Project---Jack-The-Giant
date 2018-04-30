@@ -38,16 +38,7 @@ public class Player : MonoBehaviour {
 			if(velocity < maxVelocity)
 			{
 				forceX = speed;
-			}
-			else if (h < 0)
-			{
-				if (velocity < maxVelocity)
-				{
-					forceX = -speed;
-				}
-			}
-			
-			myBody.AddForce
+			}		
 		}
 	}
 }
