@@ -32,5 +32,10 @@ public class Player : MonoBehaviour {
 		float vel = Mathf.Abs(myBody.velocity.x);
 
 		float h = Input.GetAxisRaw("Horizontal");
+
+		if (h > 0)
+		{
+				
+		}
 	}
 }
