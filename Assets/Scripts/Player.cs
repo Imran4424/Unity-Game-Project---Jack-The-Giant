@@ -39,7 +39,13 @@ public class Player : MonoBehaviour {
 			{
 				forceX = speed;
 			}
-
+			else if (h < 0)
+			{
+				if (velocity < maxVelocity)
+				{
+					forceX = speed
+				}
+			}
 				
 		}
 	}
