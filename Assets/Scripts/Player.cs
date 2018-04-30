@@ -1,44 +1,55 @@
-﻿using System.Collections; 
-using System.Collections.Generic; 
-using UnityEngine; 
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
 
-	public float speed = 8f , maxVelocity = 4f; 
+	public float speed = 8f, maxVelocity = 4f;
 
 	private Rigidbody2D myBody;
 	private Animator anim;
 
 	// this method will run first when the game run
-	void Awake()
+	void Awake ()
 	{
-		myBody = GetComponent <Rigidbody2D> ();
-		anim = GetComponent	<Animator> ();
+		myBody = GetComponent<Rigidbody2D> ();
+		anim = GetComponent<Animator> ();
 	}
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 
 	}
 
-	void PlayerMoveKeyboard()
+	void PlayerMoveKeyboard ()
 	{
 		float forceX = 0f;
-		float velocity = Mathf.Abs(myBody.velocity.x);
+		float velocity = Mathf.Abs (myBody.velocity.x);
 
-		float h = Input.GetAxisRaw("Horizontal");
+		float h = Input.GetAxisRaw ("Horizontal");
 
 		if (h > 0)
 		{
-			if(velocity < maxVelocity)
+			if (velocity < maxVelocity)
 			{
 				forceX = speed;
-			}		
+			}
 		}
+		else if (h < 0)
+		{
+			if (velocity < maxVelocity)
+			{
+				forceX = -speed;
+			}
+		}
+
 	}
 }
