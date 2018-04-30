@@ -60,6 +60,8 @@ public class Player : MonoBehaviour
 			if (velocity < maxVelocity)
 			{
 				forceX = -speed;
+
+				anim
 			}
 		}
 
