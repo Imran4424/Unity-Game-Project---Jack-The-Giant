@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
 			{
 				forceX = speed;
 
-				anim.SetBool("Walk",true);
+				anim.SetBool("walk",true);
 			}
 		}
 		else if (h < 0)
