@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	private Animator anim;
 	void Awake()
 	{
-		
+		myBody	
 	}
 
 	// Use this for initialization
