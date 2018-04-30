@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
 	public float speed = 8f , maxVelocity = 4f; 
 
-	p
+	
 
 	// Use this for initialization
 	void Start () {
