@@ -52,6 +52,8 @@ public class Player : MonoBehaviour
 			{
 				forceX = speed;
 
+				Vector3 temp = local
+
 				anim.SetBool("walk",true);
 			}
 		}
