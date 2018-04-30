@@ -35,7 +35,7 @@ public class Player : MonoBehaviour {
 
 		if (h > 0)
 		{
-			if(vel < maxVelocity)
+			if(velocity < maxVelocity)
 
 				
 		}
