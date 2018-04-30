@@ -30,9 +30,14 @@ public class Player : MonoBehaviour
 	}
 
 	/*
-	*	A different version of update function FixUpdate
-	*	FixUpdate is useful to physics related calculation
+	*	A different version of update function FixedUpdate
+	*	FixedUpdate is useful to physics related calculation
 	*/
+
+	void FixedUpdate()
+	{
+		PlayerMoveKeyboard()
+	}
 
 	void PlayerMoveKeyboard ()
 	{
