@@ -8,8 +8,7 @@ public class Player : MonoBehaviour {
 
 	private Rigidbody2D myBody;
 	private Animator anim;
-
-	void private void Awake() 
+	void Awake()
 	{
 		
 	}
