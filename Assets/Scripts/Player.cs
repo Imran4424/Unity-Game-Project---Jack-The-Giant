@@ -28,6 +28,6 @@ public class Player : MonoBehaviour {
 
 	void PlayerMoveKeyboard()
 	{
-		
+		float forceX = 0f;
 	}
 }
