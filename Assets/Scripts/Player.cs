@@ -29,6 +29,11 @@ public class Player : MonoBehaviour
 
 	}
 
+	/*
+	*	A different version of update function FixUpdate
+	*	
+	*/
+
 	void PlayerMoveKeyboard ()
 	{
 		float forceX = 0f;
