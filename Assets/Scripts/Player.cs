@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D myBody;
 	private Animator anim;
 
-	// this method will run first
+	// this method will run first when the game run
 	void Awake()
 	{
 		myBody = GetComponent <Rigidbody2D> ();
