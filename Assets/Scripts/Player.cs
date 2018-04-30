@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	public float speed = 8f; 
+	public float speed = 8f , maxVelocity = 4f; 
 
 
 
