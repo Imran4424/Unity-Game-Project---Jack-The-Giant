@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
 	void Awake()
 	{
 		myBody = GetComponent <Rigidbody2D> ();
-		anim = GetComponent	
+		anim = GetComponent	<Animator> ();
 	}
 
 	// Use this for initialization
