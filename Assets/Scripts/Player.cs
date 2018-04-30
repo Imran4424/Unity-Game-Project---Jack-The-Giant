@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
 			{
 				forceX = -speed;
 
-				anim
+				anim.SetBool("walk",true);
 			}
 		}
 
