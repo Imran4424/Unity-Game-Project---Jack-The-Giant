@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
 				forceX = speed;
 
 				Vector3 temp = transform.localScale;
+				temp.x = 1.3f;
 
 				anim.SetBool("walk",true);
 			}
