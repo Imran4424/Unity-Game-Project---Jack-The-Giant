@@ -10,7 +10,8 @@ public class Player : MonoBehaviour {
 	private Animator anim;
 	void Awake()
 	{
-		myBody = GetComponent<Rigidbody2D> ();	
+		myBody = GetComponent <Rigidbody2D> ();
+		anim = GetComponent	
 	}
 
 	// Use this for initialization
