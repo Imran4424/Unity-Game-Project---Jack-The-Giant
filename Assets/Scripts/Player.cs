@@ -26,5 +26,8 @@ public class Player : MonoBehaviour {
 
 	}
 
-
+	void PlayerMoveKeyboard()
+	{
+		
+	}
 }
