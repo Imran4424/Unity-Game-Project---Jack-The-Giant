@@ -1,9 +1,20 @@
 fileFormatVersion: 2
 guid: ad6410941d66c7d4f90f206ef9d09eec
-timeCreated: 1525007805
+timeCreated: 1525047499
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Resume Button
+    21300002: player lives
+    21300004: Quit Button
+    21300006: coin
+    21300008: cloud 1
+    21300010: cloud 2
+    21300012: Pause Button
+    21300014: cloud 3
+    21300016: dark cloud
+    21300018: score UI
+    21300020: Ready To Play
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -100,7 +111,150 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Resume Button
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 191
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player lives
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 259
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Quit Button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 192
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cloud 1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 170
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cloud 2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 148
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pause Button
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 147
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cloud 3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 102
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dark cloud
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 44
+        width: 118
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: score UI
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 53
+        width: 84
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ready To Play
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 161
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5047895, y: 0.49999985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
