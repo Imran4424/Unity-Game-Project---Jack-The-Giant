@@ -29,6 +29,6 @@ public class Player : MonoBehaviour {
 	void PlayerMoveKeyboard()
 	{
 		float forceX = 0f;
-		float velocity = Mathf.Abs(myBody.velocity.x);
+		float vel = Mathf.Abs(myBody.velocity.x);
 	}
 }
