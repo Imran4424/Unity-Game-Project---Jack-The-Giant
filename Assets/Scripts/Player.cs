@@ -29,12 +29,14 @@ public class Player : MonoBehaviour {
 	void PlayerMoveKeyboard()
 	{
 		float forceX = 0f;
-		float vel = Mathf.Abs(myBody.velocity.x);
+		float velocity = Mathf.Abs(myBody.velocity.x);
 
 		float h = Input.GetAxisRaw("Horizontal");
 
 		if (h > 0)
 		{
+			if(vel < maxVelocity)
+
 				
 		}
 	}
