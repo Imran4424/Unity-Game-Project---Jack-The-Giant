@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
 		}
 		else
 		{
-			anim.SetBool
+			anim.SetBool("walk",false);
 		}
 
 		myBody.AddForce(new Vector2(forceX,0));
