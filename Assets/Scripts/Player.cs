@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		PlayerMoveKeyboard()
+		PlayerMoveKeyboard();
 	}
 
 	void PlayerMoveKeyboard ()
