@@ -9,6 +9,11 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D myBody;
 	private Animator anim;
 
+	void private void Awake() 
+	{
+		
+	}
+
 	// Use this for initialization
 	void Start () {
 
