@@ -51,6 +51,6 @@ public class Player : MonoBehaviour
 			}
 		}
 
-		
+		myBody.AddForce(new Vector2(forceX,0));
 	}
 }
