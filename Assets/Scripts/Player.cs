@@ -46,7 +46,8 @@ public class Player : MonoBehaviour {
 					forceX = -speed;
 				}
 			}
-				
+			
+			
 		}
 	}
 }
