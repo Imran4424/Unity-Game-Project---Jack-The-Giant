@@ -51,6 +51,8 @@ public class Player : MonoBehaviour
 			if (velocity < maxVelocity)
 			{
 				forceX = speed;
+
+				anim.SetBool("Walk",true);
 			}
 		}
 		else if (h < 0)
