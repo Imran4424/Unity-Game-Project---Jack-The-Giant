@@ -30,13 +30,13 @@ public class Player : MonoBehaviour
 	}
 
 	/*
-	*	A different version of update function FixedUpdate
-	*	FixedUpdate is useful to physics related calculation
-	*/
+	 *	A different version of update function FixedUpdate
+	 *	FixedUpdate is useful to physics related calculation
+	 */
 
-	void FixedUpdate()
+	void FixedUpdate ()
 	{
-		PlayerMoveKeyboard();
+		PlayerMoveKeyboard ();
 	}
 
 	void PlayerMoveKeyboard ()
@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
 				temp.x = 1.3f;
 				transform.localScale = temp;
 
-				anim.SetBool("walk",true);
+				anim.SetBool ("walk", true);
 			}
 		}
 		else if (h < 0)
@@ -65,14 +65,18 @@ public class Player : MonoBehaviour
 			{
 				forceX = -speed;
 
-				anim.SetBool("walk",true);
+				Vector3 temp = transform.localScale;
+				temp.x = 1.3f;
+				transform.localScale = temp;
+
+				anim.SetBool ("walk", true);
 			}
 		}
 		else
 		{
-			anim.SetBool("walk",false);
+			anim.SetBool ("walk", false);
 		}
 
-		myBody.AddForce(new Vector2(forceX,0));
+		myBody.AddForce (new Vector2 (forceX, 0));
 	}
 }
