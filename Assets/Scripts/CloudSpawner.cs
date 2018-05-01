@@ -52,9 +52,14 @@ public class CloudSpawner : MonoBehaviour {
 	{
 		shuffle(clouds);
 
+		float positionY = 0f;
+
 		for(int i=0; i < clouds.Length; i++)
 		{
-			
+			Vector3 temp = clouds[i].transform.position;
+
+			temp.x = Random.Range(minX,maxX);
+			temp.y = positionY;
 		}
 	}
 }
