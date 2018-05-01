@@ -16,6 +16,8 @@ public class BackGroundScript : MonoBehaviour {
 		float worldWidth = worldHeight / Screen.height * Screen.width;
 
 		tempScale.x = worldWidth / width ;
+
+		transform.localScale = tempScale ;
 	}
 	
 }
