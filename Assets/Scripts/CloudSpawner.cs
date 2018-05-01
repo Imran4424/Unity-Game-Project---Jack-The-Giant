@@ -7,6 +7,8 @@ public class CloudSpawner : MonoBehaviour {
 	[SerializeField]
 	private GameObject[] clouds;
 
+	private float distanceBetweenClouds = 3f;
+
 
 	// Use this for initialization
 	void Start () {
