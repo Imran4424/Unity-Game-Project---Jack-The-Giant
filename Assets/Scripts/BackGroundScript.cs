@@ -12,7 +12,7 @@ public class BackGroundScript : MonoBehaviour {
 
 		float width = sr.sprite.bounds.size.x;
 
-		float worldHeight = Camera.main.orthographicSize * 2;
+		float worldHeight = Camera.main.orthographicSize * 2.0f;
 	}
 	
 }
