@@ -11,6 +11,8 @@ public class CloudSpawner : MonoBehaviour {
 
 	private float minX, maxX;
 
+	private float lastCloudPositionY;
+
 
 	// Use this for initialization
 	void Start () {
