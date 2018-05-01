@@ -63,7 +63,7 @@ public class CloudSpawner : MonoBehaviour {
 
 			lastCloudPositionY = positionY;
 
-			clouds[i].
+			clouds[i].transform.position = temp;
 		}
 	}
 }
