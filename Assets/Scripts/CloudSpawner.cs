@@ -60,6 +60,10 @@ public class CloudSpawner : MonoBehaviour {
 
 			temp.x = Random.Range(minX,maxX);
 			temp.y = positionY;
+
+			lastCloudPositionY = positionY;
+
+			clouds[i].
 		}
 	}
 }
