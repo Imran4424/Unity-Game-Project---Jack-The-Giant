@@ -8,7 +8,7 @@ public class BackGroundScript : MonoBehaviour {
 	void Start () 
 	{
 		SpriteRenderer sr = GetComponent <SpriteRenderer> ();
-		Vector3 
+		Vector3 tempScale = transform.
 
 	}
 	
