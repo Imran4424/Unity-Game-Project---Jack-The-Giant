@@ -67,6 +67,19 @@ public class CloudSpawner : MonoBehaviour
 
 				controlX = 1;
 			}
+			else if (controlX == 1)
+			{
+				temp.x = Random.Range (0.0f, minX);
+
+				controlX = 2;
+
+			}
+			else if (controlX == 2)
+			{
+				temp.x = Random.Range (1.0f, maxX);
+
+				controlX = 0;
+			}
 
 			lastCloudPositionY = positionY;
 
