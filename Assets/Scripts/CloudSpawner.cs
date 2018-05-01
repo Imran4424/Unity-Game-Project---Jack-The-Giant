@@ -48,5 +48,8 @@ public class CloudSpawner : MonoBehaviour {
 		}
 	}
 
-	
+	void createClouds()
+	{
+		
+	}
 }
