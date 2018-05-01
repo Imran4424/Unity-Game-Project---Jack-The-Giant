@@ -8,7 +8,7 @@ public class CloudCollector : MonoBehaviour {
 	{
 		if(target.tag == "Cloud" || target.tag == "Deadly")
 		{
-			target.gameObject.SetActive
+			target.gameObject.SetActive();
 		}
 	}
 }
