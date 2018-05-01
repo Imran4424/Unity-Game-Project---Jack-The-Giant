@@ -15,7 +15,7 @@ public class CloudSpawner : MonoBehaviour {
 
 	private float controlX;
 
-	private GameObject 
+	private GameObject player;
 
 
 	// Use this for initialization
