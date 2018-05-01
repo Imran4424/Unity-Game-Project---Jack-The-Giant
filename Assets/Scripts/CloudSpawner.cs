@@ -28,6 +28,6 @@ public class CloudSpawner : MonoBehaviour {
 	
 	void setMinAndMaxX()
 	{
-		Vector3 bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,0))
+		Vector3 bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,0));
 	}
 }
