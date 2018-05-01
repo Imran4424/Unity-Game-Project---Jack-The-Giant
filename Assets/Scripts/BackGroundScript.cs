@@ -10,6 +10,7 @@ public class BackGroundScript : MonoBehaviour {
 		SpriteRenderer sr = GetComponent <SpriteRenderer> ();
 		Vector3 tempScale = transform.localScale;
 
+		
 	}
 	
 }
