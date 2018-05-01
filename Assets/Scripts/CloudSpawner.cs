@@ -13,6 +13,10 @@ public class CloudSpawner : MonoBehaviour {
 
 	private float lastCloudPositionY;
 
+	private float controlX;
+
+	private GameObject 
+
 
 	// Use this for initialization
 	void Start () {
