@@ -14,6 +14,8 @@ public class BackGroundScript : MonoBehaviour {
 
 		float worldHeight = Camera.main.orthographicSize * 2.0f;
 		float worldWidth = worldHeight / Screen.height * Screen.width;
+
+		tempScale.x = worldWidth / width ;
 	}
 	
 }
