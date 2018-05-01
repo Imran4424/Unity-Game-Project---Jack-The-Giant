@@ -18,7 +18,7 @@ public class CloudSpawner : MonoBehaviour {
 	private GameObject player;
 
 	[SerializeField]
-	private GameObject[]
+	private GameObject[] Collectables;
 
 
 	// Use this for initialization
