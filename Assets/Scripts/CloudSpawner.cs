@@ -47,4 +47,6 @@ public class CloudSpawner : MonoBehaviour {
 			ArrayToShuffle[random] = temp;
 		}
 	}
+
+	
 }
