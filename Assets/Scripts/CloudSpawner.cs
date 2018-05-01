@@ -37,6 +37,9 @@ public class CloudSpawner : MonoBehaviour {
 
 	void shuffle(GameObject[] ArrayToShuffle)
 	{
-
+		for(int i=0; i < ArrayToShuffle.Length ; i++)
+		{
+			
+		}
 	}
 }
