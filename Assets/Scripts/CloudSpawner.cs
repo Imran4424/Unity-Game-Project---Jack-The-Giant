@@ -25,6 +25,7 @@ public class CloudSpawner : MonoBehaviour {
 	void Awake()
 	{
 		setMinAndMaxX();
+		createClouds();
 	}
 	
 	void setMinAndMaxX()
@@ -64,6 +65,8 @@ public class CloudSpawner : MonoBehaviour {
 			lastCloudPositionY = positionY;
 
 			clouds[i].transform.position = temp;
+
+			positionY -= distanceBetweenClouds;
 		}
 	}
 }
