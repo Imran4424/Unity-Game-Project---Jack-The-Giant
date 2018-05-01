@@ -9,6 +9,8 @@ public class CloudSpawner : MonoBehaviour {
 
 	private float distanceBetweenClouds = 3f;
 
+	private float minX, maxX;
+
 
 	// Use this for initialization
 	void Start () {
