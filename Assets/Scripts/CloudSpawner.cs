@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CloudSpawner : MonoBehaviour {
 
+	[SerializeField]
+
+
+
 	// Use this for initialization
 	void Start () {
 		
