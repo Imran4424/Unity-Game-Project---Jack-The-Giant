@@ -23,6 +23,7 @@ public class CloudSpawner : MonoBehaviour
 
 	void Awake ()
 	{
+		controlX = 0;
 		setMinAndMaxX ();
 		createClouds ();
 	}
@@ -78,7 +79,14 @@ public class CloudSpawner : MonoBehaviour
 			{
 				temp.x = Random.Range (1.0f, maxX);
 
+				controlX = 3;
+			}
+			else if (controlX == 3)
+			{
+				temp.x = Random.Range (-1.0f, minX);
+
 				controlX = 0;
+
 			}
 
 			lastCloudPositionY = positionY;
