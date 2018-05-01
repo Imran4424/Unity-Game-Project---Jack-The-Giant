@@ -7,7 +7,7 @@ public class BackGroundScript : MonoBehaviour {
 	
 	void Start () 
 	{
-		
+		SpriteRenderer sr = GetComponent <SpriteRenderer> ();	
 	}
 	
 }
