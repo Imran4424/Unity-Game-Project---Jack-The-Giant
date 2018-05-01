@@ -50,6 +50,11 @@ public class CloudSpawner : MonoBehaviour {
 
 	void createClouds()
 	{
-		
+		shuffle(clouds);
+
+		for(int i=0; i < clouds.Length; i++)
+		{
+			
+		}
 	}
 }
