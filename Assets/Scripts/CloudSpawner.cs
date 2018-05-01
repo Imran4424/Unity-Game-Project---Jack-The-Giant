@@ -21,9 +21,10 @@ public class CloudSpawner : MonoBehaviour {
 	private GameObject[] Collectables;
 
 
-	// Use this for initialization
-	void Start () {
-		
+
+	void Awake()
+	{
+		setMinAndMaxX();
 	}
 	
 	void setMinAndMaxX()
@@ -31,5 +32,6 @@ public class CloudSpawner : MonoBehaviour {
 		Vector3 bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,0));
 
 		maxX = bounds.x - 0.5f;
+		minX = -bounds.x + 0.5f;
 	}
 }
