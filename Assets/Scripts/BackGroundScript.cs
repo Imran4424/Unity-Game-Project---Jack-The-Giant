@@ -5,7 +5,8 @@ using UnityEngine;
 public class BackGroundScript : MonoBehaviour {
 
 	
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	
