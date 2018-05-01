@@ -58,7 +58,7 @@ public class CloudSpawner : MonoBehaviour
 		{
 			Vector3 temp = clouds[i].transform.position;
 
-			temp.x = Random.Range (minX, maxX);
+			//temp.x = Random.Range (minX, maxX);
 			temp.y = positionY;
 
 			if (controlX == 0)
