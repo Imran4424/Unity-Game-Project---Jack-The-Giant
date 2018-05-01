@@ -28,6 +28,6 @@ public class CloudSpawner : MonoBehaviour {
 	
 	void setMinAndMaxX()
 	{
-		
+		Vector3
 	}
 }
