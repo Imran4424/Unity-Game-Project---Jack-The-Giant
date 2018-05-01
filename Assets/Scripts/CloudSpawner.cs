@@ -34,4 +34,6 @@ public class CloudSpawner : MonoBehaviour {
 		maxX = bounds.x - 0.5f;
 		minX = -bounds.x + 0.5f;
 	}
+
+	void shuffle()
 }
