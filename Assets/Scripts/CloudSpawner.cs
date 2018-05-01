@@ -35,5 +35,8 @@ public class CloudSpawner : MonoBehaviour {
 		minX = -bounds.x + 0.5f;
 	}
 
-	void shuffle()
+	void shuffle(GameObject[] ArrayToShuffle)
+	{
+
+	}
 }
