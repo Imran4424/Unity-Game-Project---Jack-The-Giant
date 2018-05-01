@@ -11,6 +11,8 @@ public class BackGroundScript : MonoBehaviour {
 		Vector3 tempScale = transform.localScale;
 
 		float width = sr.sprite.bounds.size.x;
+
+		float worldHeight = Camera.main.orthographicSize 
 	}
 	
 }
