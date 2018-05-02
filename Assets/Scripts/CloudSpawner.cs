@@ -126,6 +126,8 @@ public class CloudSpawner : MonoBehaviour
 			}	
 
 			playerTemp.y += 0.8f;
+
+			player.transform.position = playerTemp;
 		}
 	}
 }
