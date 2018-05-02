@@ -116,6 +116,6 @@ public class CloudSpawner : MonoBehaviour
 			}	
 		}
 
-		Vector3 playerTemp
+		Vector3 playerTemp = cloudsInGame[0].transform.position;
 	}
 }
