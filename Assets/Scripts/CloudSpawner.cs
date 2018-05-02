@@ -108,7 +108,7 @@ public class CloudSpawner : MonoBehaviour
 			{
 				Vector3 tempDarkCloud = darkClouds[i].transform.position;	
 
-				darkClouds[i].transform.position = 			
+				darkClouds[i].transform.position = new Vector3();			
 			}	
 		}
 	}
