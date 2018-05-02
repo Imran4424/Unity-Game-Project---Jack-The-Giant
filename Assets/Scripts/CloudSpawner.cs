@@ -106,7 +106,7 @@ public class CloudSpawner : MonoBehaviour
 		{
 			if (darkClouds[i].transform.position.y == 0)
 			{
-				Vector3 tempDarkCloud 				
+				Vector3 tempDarkCloud = 				
 			}	
 		}
 	}
