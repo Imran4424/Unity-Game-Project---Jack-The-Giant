@@ -124,6 +124,8 @@ public class CloudSpawner : MonoBehaviour
 			{
 				playerTemp = cloudsInGame[i].transform.position;
 			}	
+
+			playerTemp.y += 0.8f;
 		}
 	}
 }
