@@ -101,5 +101,10 @@ public class CloudSpawner : MonoBehaviour
 	{
 		GameObject[] darkClouds = GameObject.FindGameObjectsWithTag("Deadly");
 		GameObject[] cloudsInGame = GameObject.FindGameObjectsWithTag("Cloud");
+
+		for (int i = 0; i < darkClouds.Length; i++)
+		{
+				
+		}
 	}
 }
