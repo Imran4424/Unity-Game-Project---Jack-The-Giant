@@ -104,7 +104,7 @@ public class CloudSpawner : MonoBehaviour
 
 		for (int i = 0; i < darkClouds.Length; i++)
 		{
-			if (darkClouds[i].transform.position.y)
+			if (darkClouds[i].transform.position.y == 0)
 			{
 				
 			}	
