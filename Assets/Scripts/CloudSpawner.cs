@@ -96,4 +96,9 @@ public class CloudSpawner : MonoBehaviour
 			positionY -= distanceBetweenClouds;
 		}
 	}
+
+	void positionThePlayer()
+	{
+		GameObject[] darkClouds = 
+	}
 }
