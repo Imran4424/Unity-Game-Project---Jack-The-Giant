@@ -32,7 +32,7 @@ public class CloudSpawner : MonoBehaviour
 
 	void Start()
 	{
-		
+		positionThePlayer();
 	}
 
 	void setMinAndMaxX ()
