@@ -112,7 +112,7 @@ public class CloudSpawner : MonoBehaviour
 																cloudsInGame[0].transform.position.y,
 																cloudsInGame[0].transform.position.z);
 
-				cloudsInGame[0].transform.position 
+				cloudsInGame[0].transform.position = tempDarkCloud;
 			}	
 		}
 	}
