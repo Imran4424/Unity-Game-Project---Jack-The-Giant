@@ -120,7 +120,10 @@ public class CloudSpawner : MonoBehaviour
 
 		for (int i = 1; i < cloudsInGame.Length; i++)
 		{
-			
+			if (playerTemp.y < cloudsInGame[i].transform.position.y)
+			{
+				
+			}	
 		}
 	}
 }
