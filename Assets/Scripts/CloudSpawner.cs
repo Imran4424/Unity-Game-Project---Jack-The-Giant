@@ -104,7 +104,10 @@ public class CloudSpawner : MonoBehaviour
 
 		for (int i = 0; i < darkClouds.Length; i++)
 		{
+			if (true)
+			{
 				
+			}	
 		}
 	}
 }
