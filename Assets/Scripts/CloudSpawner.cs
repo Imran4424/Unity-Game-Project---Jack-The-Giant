@@ -26,6 +26,8 @@ public class CloudSpawner : MonoBehaviour
 		controlX = 0;
 		setMinAndMaxX ();
 		createClouds ();
+
+		player = GameObject.Find("Player");
 	}
 
 	void setMinAndMaxX ()
