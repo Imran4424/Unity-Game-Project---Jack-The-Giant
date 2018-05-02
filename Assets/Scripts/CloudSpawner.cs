@@ -122,7 +122,7 @@ public class CloudSpawner : MonoBehaviour
 		{
 			if (playerTemp.y < cloudsInGame[i].transform.position.y)
 			{
-				
+				playerTemp = 
 			}	
 		}
 	}
