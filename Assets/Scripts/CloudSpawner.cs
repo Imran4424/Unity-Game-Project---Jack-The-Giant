@@ -30,6 +30,11 @@ public class CloudSpawner : MonoBehaviour
 		player = GameObject.Find("Player");
 	}
 
+	void Start()
+	{
+		
+	}
+
 	void setMinAndMaxX ()
 	{
 		Vector3 bounds = Camera.main.ScreenToWorldPoint (new Vector3 (Screen.width, Screen.height, 0));
