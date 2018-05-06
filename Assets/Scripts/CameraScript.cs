@@ -15,7 +15,7 @@ public class CameraScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		
+		movecamera 
 	}
 	
 	// Update is called once per frame
