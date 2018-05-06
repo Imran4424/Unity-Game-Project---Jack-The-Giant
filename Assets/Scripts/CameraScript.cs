@@ -31,6 +31,6 @@ public class CameraScript : MonoBehaviour {
 	{
 		Vector3 temp = transform.position;
 
-		float
+		float oldY = temp.y;
 	}
 }
