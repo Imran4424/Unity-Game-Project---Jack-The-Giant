@@ -30,5 +30,7 @@ public class CameraScript : MonoBehaviour {
 	void moveCamera()
 	{
 		Vector3 temp = transform.position;
+
+		float
 	}
 }
