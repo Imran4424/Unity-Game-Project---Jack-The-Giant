@@ -33,5 +33,7 @@ public class CameraScript : MonoBehaviour {
 
 		float oldY = temp.y;
 		float newY = temp.y - (speed * Time.deltaTime);
+
+		temp.y = Mathf.Clamp
 	}
 }
