@@ -151,7 +151,10 @@ public class CloudSpawner : MonoBehaviour
 
 				for(int i = 0; i < clouds.Length; i++)
 				{
-
+					if (true)
+					{
+						
+					}
 				}
 			}
 		}
