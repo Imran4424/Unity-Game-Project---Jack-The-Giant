@@ -32,6 +32,6 @@ public class CameraScript : MonoBehaviour {
 		Vector3 temp = transform.position;
 
 		float oldY = temp.y;
-		float newY = 
+		float newY = temp.y - (speed * Time.deltaTime);
 	}
 }
