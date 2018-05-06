@@ -40,7 +40,7 @@ public class CameraScript : MonoBehaviour {
 
 		speed += acceleration * Time.deltaTime;
 
-		if (true)
+		if (speed > maxSpeed)
 		{
 			
 		}
