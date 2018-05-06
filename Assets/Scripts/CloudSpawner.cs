@@ -179,6 +179,8 @@ public class CloudSpawner : MonoBehaviour
 							controlX = 0;
 
 						}
+
+						temp.y -= distanceBetweenClouds;
 					}
 				}
 			}
