@@ -149,11 +149,36 @@ public class CloudSpawner : MonoBehaviour
 
 				Vector3 temp = target.transform.position;
 
-				for(int i = 0; i < clouds.Length; i++)
+				for (int i = 0; i < clouds.Length; i++)
 				{
 					if (!clouds[i].activeInHierarchy)
 					{
-						
+						if (controlX == 0)
+						{
+							temp.x = Random.Range (0.0f, maxX);
+
+							controlX = 1;
+						}
+						else if (controlX == 1)
+						{
+							temp.x = Random.Range (0.0f, minX);
+
+							controlX = 2;
+
+						}
+						else if (controlX == 2)
+						{
+							temp.x = Random.Range (1.0f, maxX);
+
+							controlX = 3;
+						}
+						else if (controlX == 3)
+						{
+							temp.x = Random.Range (-1.0f, minX);
+
+							controlX = 0;
+
+						}
 					}
 				}
 			}
