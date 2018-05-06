@@ -144,7 +144,8 @@ public class CloudSpawner : MonoBehaviour
 		{
 			if (target.transform.position.y == lastCloudPositionY)
 			{
-				
+				shuffle(clouds);
+				shuffle(Collectables);
 			}
 		}	
 	}
