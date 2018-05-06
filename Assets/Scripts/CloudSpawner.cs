@@ -146,6 +146,8 @@ public class CloudSpawner : MonoBehaviour
 			{
 				shuffle(clouds);
 				shuffle(Collectables);
+
+				Vector3 temp = target.transform.position;
 			}
 		}	
 	}
