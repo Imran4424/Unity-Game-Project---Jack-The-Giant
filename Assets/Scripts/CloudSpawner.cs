@@ -181,6 +181,8 @@ public class CloudSpawner : MonoBehaviour
 						}
 
 						temp.y -= distanceBetweenClouds;
+						clouds[i].transform.transform.position = temp;
+						clouds[i].SetActive(true);
 					}
 				}
 			}
