@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour {
 
+
+	private float speed = 1f;
+	
+
 	// Use this for initialization
 	void Start () 
 	{
