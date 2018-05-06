@@ -27,12 +27,12 @@ public class CloudSpawner : MonoBehaviour
 		setMinAndMaxX ();
 		createClouds ();
 
-		player = GameObject.Find("Player");
+		player = GameObject.Find ("Player");
 	}
 
-	void Start()
+	void Start ()
 	{
-		positionThePlayer();
+		positionThePlayer ();
 	}
 
 	void setMinAndMaxX ()
@@ -104,23 +104,23 @@ public class CloudSpawner : MonoBehaviour
 		}
 	}
 
-	void positionThePlayer()
+	void positionThePlayer ()
 	{
-		GameObject[] darkClouds = GameObject.FindGameObjectsWithTag("Deadly");
-		GameObject[] cloudsInGame = GameObject.FindGameObjectsWithTag("Cloud");
+		GameObject[] darkClouds = GameObject.FindGameObjectsWithTag ("Deadly");
+		GameObject[] cloudsInGame = GameObject.FindGameObjectsWithTag ("Cloud");
 
 		for (int i = 0; i < darkClouds.Length; i++)
 		{
 			if (darkClouds[i].transform.position.y == 0)
 			{
-				Vector3 tempDarkCloud = darkClouds[i].transform.position;	
+				Vector3 tempDarkCloud = darkClouds[i].transform.position;
 
-				darkClouds[i].transform.position = new Vector3( cloudsInGame[0].transform.position.x,
-																cloudsInGame[0].transform.position.y,
-																cloudsInGame[0].transform.position.z);
+				darkClouds[i].transform.position = new Vector3 (cloudsInGame[0].transform.position.x,
+					cloudsInGame[0].transform.position.y,
+					cloudsInGame[0].transform.position.z);
 
 				cloudsInGame[0].transform.position = tempDarkCloud;
-			}	
+			}
 		}
 
 		Vector3 playerTemp = cloudsInGame[0].transform.position;
@@ -130,7 +130,7 @@ public class CloudSpawner : MonoBehaviour
 			if (playerTemp.y < cloudsInGame[i].transform.position.y)
 			{
 				playerTemp = cloudsInGame[i].transform.position;
-			}	
+			}
 
 			playerTemp.y += 0.8f;
 
@@ -138,17 +138,44 @@ public class CloudSpawner : MonoBehaviour
 		}
 	}
 
-	void OnTriggerEnter2D(Collider2D target)
+	void OnTriggerEnter2D (Collider2D target)
 	{
 		if (target.tag == "Cloud" || target.tag == "Deadly")
 		{
 			if (target.transform.position.y == lastCloudPositionY)
 			{
-				shuffle(clouds);
-				shuffle(Collectables);
+				shuffle (clouds);
+				shuffle (Collectables);
 
 				Vector3 temp = target.transform.position;
+
+				if (controlX == 0)
+				{
+					temp.x = Random.Range (0.0f, maxX);
+
+					controlX = 1;
+				}
+				else if (controlX == 1)
+				{
+					temp.x = Random.Range (0.0f, minX);
+
+					controlX = 2;
+
+				}
+				else if (controlX == 2)
+				{
+					temp.x = Random.Range (1.0f, maxX);
+
+					controlX = 3;
+				}
+				else if (controlX == 3)
+				{
+					temp.x = Random.Range (-1.0f, minX);
+
+					controlX = 0;
+
+				}
 			}
-		}	
+		}
 	}
 }
