@@ -6,7 +6,7 @@ public class CameraScript : MonoBehaviour {
 
 
 	private float speed = 1f;
-	
+	private
 
 	// Use this for initialization
 	void Start () 
