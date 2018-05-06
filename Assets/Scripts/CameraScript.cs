@@ -39,5 +39,10 @@ public class CameraScript : MonoBehaviour {
 		transform.position = temp;
 
 		speed += acceleration * Time.deltaTime;
+
+		if (true)
+		{
+			
+		}
 	}
 }
