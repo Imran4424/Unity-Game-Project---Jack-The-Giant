@@ -137,4 +137,9 @@ public class CloudSpawner : MonoBehaviour
 			player.transform.position = playerTemp;
 		}
 	}
+
+	void OnTriggerEnter2D(Collider2D target)
+	{
+		
+	}
 }
