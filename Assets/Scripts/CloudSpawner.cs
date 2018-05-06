@@ -149,7 +149,10 @@ public class CloudSpawner : MonoBehaviour
 
 				Vector3 temp = target.transform.position;
 
-				
+				for(int i = 0; i < clouds.Length; i++)
+				{
+
+				}
 			}
 		}
 	}
