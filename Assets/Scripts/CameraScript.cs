@@ -42,7 +42,7 @@ public class CameraScript : MonoBehaviour {
 
 		if (speed > maxSpeed)
 		{
-			
+			speed = maxSpeed;
 		}
 	}
 }
