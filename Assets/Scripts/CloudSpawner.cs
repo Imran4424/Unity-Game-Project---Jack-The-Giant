@@ -140,7 +140,7 @@ public class CloudSpawner : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D target)
 	{
-		if (true)
+		if (target.tag == "Cloud" || target.tag == "Deadly")
 		{
 			
 		}	
