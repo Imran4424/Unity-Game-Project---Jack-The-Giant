@@ -10,7 +10,7 @@ public class CameraScript : MonoBehaviour {
 	private float maxSpeed = 3.2f;
 
 
-	public bool
+	public bool movecamera;
 
 	// Use this for initialization
 	void Start () 
