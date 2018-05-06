@@ -9,6 +9,9 @@ public class CameraScript : MonoBehaviour {
 	private float acceleration = 0.2f;
 	private float maxSpeed = 3.2f;
 
+
+	public
+
 	// Use this for initialization
 	void Start () 
 	{
