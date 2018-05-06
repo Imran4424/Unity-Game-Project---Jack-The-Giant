@@ -142,7 +142,7 @@ public class CloudSpawner : MonoBehaviour
 	{
 		if (target.tag == "Cloud" || target.tag == "Deadly")
 		{
-			if (true)
+			if (target.transform.position.y == lastCloudPositionY)
 			{
 				
 			}
