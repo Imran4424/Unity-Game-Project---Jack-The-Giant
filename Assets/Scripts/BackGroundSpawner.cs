@@ -39,7 +39,7 @@ public class BackGroundSpawner : MonoBehaviour {
 
 				float height = ((BoxCollider2D)target).size.y;
 
-				for (int i = 0; i < length; i++)
+				for (int i = 0; i < backgrounds.Length; i++)
 				{
 					
 				}
