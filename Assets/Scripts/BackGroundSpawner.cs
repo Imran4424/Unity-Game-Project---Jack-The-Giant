@@ -29,7 +29,7 @@ public class BackGroundSpawner : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter2D(Collider2D s)
+	void OnTriggerEnter2D(Collider2D target)
 	{
 		
 	}
