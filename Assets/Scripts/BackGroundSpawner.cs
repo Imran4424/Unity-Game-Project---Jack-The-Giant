@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BackGroundSpawner : MonoBehaviour {
 
+	private GameObject[] backgrounds;
+
+
 	// Use this for initialization
 	void Start () {
 		
