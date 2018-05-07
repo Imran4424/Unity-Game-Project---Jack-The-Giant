@@ -5,6 +5,7 @@ using UnityEngine;
 public class BackGroundSpawner : MonoBehaviour {
 
 	private GameObject[] backgrounds;
+	private float lastYposition;
 
 
 	// Use this for initialization
