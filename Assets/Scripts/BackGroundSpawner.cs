@@ -11,7 +11,7 @@ public class BackGroundSpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		
+		getBackgroundAndsetLastY();	
 	}
 	
 	void getBackgroundAndsetLastY()
