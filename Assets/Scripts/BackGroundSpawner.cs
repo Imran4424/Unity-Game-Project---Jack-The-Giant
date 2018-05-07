@@ -35,7 +35,7 @@ public class BackGroundSpawner : MonoBehaviour {
 		{
 			if (target.transform.position.y == lastYposition)
 			{
-				
+				Vector3 temp =
 			}
 		}
 	}
