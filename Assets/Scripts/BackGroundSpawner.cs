@@ -17,7 +17,7 @@ public class BackGroundSpawner : MonoBehaviour {
 	{
 		backgrounds = GameObject.FindGameObjectsWithTag("Background");
 
-		
+		lastYposition = backgrounds
 	}
 
 }
