@@ -6,6 +6,9 @@ public class BackGroundCollector : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D target)
 	{
-		
+		if (true)
+		{
+			
+		}
 	}
 }
