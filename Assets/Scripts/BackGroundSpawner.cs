@@ -21,7 +21,10 @@ public class BackGroundSpawner : MonoBehaviour {
 
 		for (int i = 1; i < backgrounds.Length; i++)
 		{
-			
+			if (true)
+			{
+				
+			}
 		}
 	}
 
