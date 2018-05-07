@@ -41,7 +41,7 @@ public class BackGroundSpawner : MonoBehaviour {
 
 				for (int i = 0; i < backgrounds.Length; i++)
 				{
-					if (true)
+					if (!backgrounds[i].activeInHierarchy)
 					{
 						
 					}
