@@ -37,7 +37,7 @@ public class BackGroundSpawner : MonoBehaviour {
 			{
 				Vector3 temp = target.transform.position;
 
-				float height = 
+				float height = ((BoxCollider2D)target).size.y;
 			}
 		}
 	}
