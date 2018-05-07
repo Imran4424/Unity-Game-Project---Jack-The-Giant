@@ -43,7 +43,7 @@ public class BackGroundSpawner : MonoBehaviour {
 				{
 					if (!backgrounds[i].activeInHierarchy)
 					{
-						
+						temp.y -= height;
 					}
 				}
 			}
