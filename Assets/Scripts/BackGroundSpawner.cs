@@ -47,6 +47,7 @@ public class BackGroundSpawner : MonoBehaviour {
 						lastYposition = temp.y;
 
 						backgrounds[i].transform.position = temp;
+						backgrounds[i].SetActive(true);
 					}
 				}
 			}
