@@ -37,7 +37,7 @@ public class BackGroundSpawner : MonoBehaviour {
 			{
 				Vector3 temp = target.transform.position;
 
-				float
+				float height = 
 			}
 		}
 	}
