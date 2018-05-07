@@ -18,6 +18,11 @@ public class BackGroundSpawner : MonoBehaviour {
 		backgrounds = GameObject.FindGameObjectsWithTag("Background");
 
 		lastYposition = backgrounds[0].transform.position.y;
+
+		for (int i = 1; i < length; i++)
+		{
+			
+		}
 	}
 
 }
