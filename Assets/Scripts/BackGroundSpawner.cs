@@ -21,7 +21,7 @@ public class BackGroundSpawner : MonoBehaviour {
 
 		for (int i = 1; i < backgrounds.Length; i++)
 		{
-			if (true)
+			if (lastYposition > backgrounds[i].transform.position.y)
 			{
 				
 			}
