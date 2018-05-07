@@ -23,7 +23,7 @@ public class BackGroundSpawner : MonoBehaviour {
 		{
 			if (lastYposition > backgrounds[i].transform.position.y)
 			{
-				
+				lastYposition 
 			}
 		}
 	}
