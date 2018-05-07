@@ -33,7 +33,7 @@ public class BackGroundSpawner : MonoBehaviour {
 	{
 		if (target.tag == "Background")
 		{
-			if (true)
+			if (target.transform.position.y == lastYposition)
 			{
 				
 			}
