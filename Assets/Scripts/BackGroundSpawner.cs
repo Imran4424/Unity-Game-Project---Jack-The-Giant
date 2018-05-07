@@ -31,9 +31,12 @@ public class BackGroundSpawner : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D target)
 	{
-		if (true)
+		if (target.tag == "Background")
 		{
-			
+			if (true)
+			{
+				
+			}
 		}
 	}
 
