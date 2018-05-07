@@ -13,5 +13,8 @@ public class BackGroundSpawner : MonoBehaviour {
 		
 	}
 	
-	
+	void getBackgroundAndsetLastY()
+	{
+		
+	}
 }
