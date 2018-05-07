@@ -45,6 +45,8 @@ public class BackGroundSpawner : MonoBehaviour {
 					{
 						temp.y -= height;
 						lastYposition = temp.y;
+
+						backgrounds[i].transform.position = temp;
 					}
 				}
 			}
