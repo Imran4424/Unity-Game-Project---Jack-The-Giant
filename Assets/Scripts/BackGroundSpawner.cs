@@ -19,7 +19,7 @@ public class BackGroundSpawner : MonoBehaviour {
 
 		lastYposition = backgrounds[0].transform.position.y;
 
-		for (int i = 1; i < length; i++)
+		for (int i = 1; i < backgrounds.Length; i++)
 		{
 			
 		}
