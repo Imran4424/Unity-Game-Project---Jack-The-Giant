@@ -46,7 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BackGroundCollector.cs" />
      <Compile Include="Assets\Scripts\BackGroundScript.cs" />
+     <Compile Include="Assets\Scripts\BackGroundSpawner.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\CloudCollector.cs" />
      <Compile Include="Assets\Scripts\CloudSpawner.cs" />
