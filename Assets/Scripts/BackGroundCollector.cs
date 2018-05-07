@@ -8,7 +8,7 @@ public class BackGroundCollector : MonoBehaviour {
 	{
 		if (target.tag == "Background")
 		{
-			
+			target.gameObject.SetActive(false);
 		}
 	}
 }
