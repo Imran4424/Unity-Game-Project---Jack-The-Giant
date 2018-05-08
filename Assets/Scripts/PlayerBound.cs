@@ -23,7 +23,7 @@ public class PlayerBound : MonoBehaviour {
 			transform.position = temp;
 		}
 
-		if (true)
+		if (transform.position.x > maxX)
 		{
 			
 		}	
