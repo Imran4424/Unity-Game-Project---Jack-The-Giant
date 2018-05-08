@@ -25,7 +25,7 @@ public class PlayerBound : MonoBehaviour {
 
 		if (transform.position.x > maxX)
 		{
-			
+			Vector3 temp = transform.position;
 		}	
 	}
 
