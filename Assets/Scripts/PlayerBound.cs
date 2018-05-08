@@ -15,4 +15,9 @@ public class PlayerBound : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void SetMinAndMax()
+	{
+		
+	}
 }
