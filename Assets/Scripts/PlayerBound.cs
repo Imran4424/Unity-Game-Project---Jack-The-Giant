@@ -18,6 +18,8 @@ public class PlayerBound : MonoBehaviour {
 		if (transform.position.x < minX)
 		{
 			Vector3 temp = transform.position;
+
+			temp.x = minX;
 		}	
 	}
 
