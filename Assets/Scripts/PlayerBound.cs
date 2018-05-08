@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerBound : MonoBehaviour {
 
+	private float
+
 	// Use this for initialization
 	void Start () {
 		
