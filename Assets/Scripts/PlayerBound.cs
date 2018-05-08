@@ -20,7 +20,7 @@ public class PlayerBound : MonoBehaviour {
 			Vector3 temp = transform.position;
 
 			temp.x = minX;
-			
+			transform.position
 		}	
 	}
 
