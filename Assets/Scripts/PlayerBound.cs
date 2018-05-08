@@ -28,6 +28,7 @@ public class PlayerBound : MonoBehaviour {
 			Vector3 temp = transform.position;
 
 			temp.x = maxX;
+			transform.position = temp;
 		}	
 	}
 
