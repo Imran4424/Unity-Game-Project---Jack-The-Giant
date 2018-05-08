@@ -7,8 +7,9 @@ public class PlayerBound : MonoBehaviour {
 	private float minX, maxX;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+			
 	}
 	
 	// Update is called once per frame
