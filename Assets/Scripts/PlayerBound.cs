@@ -21,6 +21,11 @@ public class PlayerBound : MonoBehaviour {
 
 			temp.x = minX;
 			transform.position = temp;
+		}
+
+		if (true)
+		{
+			
 		}	
 	}
 
