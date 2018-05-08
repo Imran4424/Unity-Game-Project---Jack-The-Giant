@@ -15,7 +15,7 @@ public class PlayerBound : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (transform)
+		if (transform.position.x )
 		{
 			
 		}	
