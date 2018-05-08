@@ -9,7 +9,7 @@ public class PlayerBound : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-			
+		SetMinAndMax();	
 	}
 	
 	// Update is called once per frame
