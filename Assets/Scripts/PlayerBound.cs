@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBound : MonoBehaviour {
 
-	private float
+	private float minX, maxX;
 
 	// Use this for initialization
 	void Start () {
