@@ -18,6 +18,6 @@ public class PlayerBound : MonoBehaviour {
 
 	void SetMinAndMax()
 	{
-		Vector3 bounds = Camera.main.ScreenToWorldPoint
+		Vector3 bounds = Camera.main.ScreenToWorldPoint();
 	}
 }
