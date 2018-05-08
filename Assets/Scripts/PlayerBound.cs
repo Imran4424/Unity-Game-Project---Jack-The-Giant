@@ -21,5 +21,6 @@ public class PlayerBound : MonoBehaviour {
 		Vector3 bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,0));
 
 		maxX = bounds.x;
+		minX
 	}
 }
