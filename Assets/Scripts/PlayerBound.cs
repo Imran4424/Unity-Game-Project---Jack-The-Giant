@@ -29,7 +29,7 @@ public class PlayerBound : MonoBehaviour {
 
 			temp.x = maxX;
 			transform.position = temp;
-		}	
+		}
 	}
 
 	void SetMinAndMax()
