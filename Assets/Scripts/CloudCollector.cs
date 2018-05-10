@@ -12,5 +12,5 @@ public class CloudCollector : MonoBehaviour {
 		}
 	}
 
-	
+	v
 }
