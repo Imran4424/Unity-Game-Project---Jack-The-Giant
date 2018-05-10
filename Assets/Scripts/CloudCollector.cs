@@ -18,6 +18,6 @@ public class CloudCollector : MonoBehaviour {
 
 		float velocity = 1f;
 
-		float h = Input.Get
+		float h = Input.GetAxis
 	}
 }
