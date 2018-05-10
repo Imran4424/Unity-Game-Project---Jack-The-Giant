@@ -11,4 +11,6 @@ public class CloudCollector : MonoBehaviour {
 			target.gameObject.SetActive(false);
 		}
 	}
+
+	
 }
