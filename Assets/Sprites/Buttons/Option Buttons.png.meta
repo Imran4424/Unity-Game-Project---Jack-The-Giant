@@ -1,14 +1,14 @@
 fileFormatVersion: 2
 guid: 6df355c33053c7342aecb9df3f78f3a4
-timeCreated: 1525814966
+timeCreated: 1525911870
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Option Buttons_0
-    21300002: Option Buttons_1
-    21300004: Option Buttons_2
-    21300006: Option Buttons_3
-    21300008: Option Buttons_4
+    21300000: Easy Button
+    21300002: Medium Button
+    21300004: Hard Button
+    21300006: Check Sign
+    21300008: Back Button
     21300010: test
   serializedVersion: 4
   mipmaps:
@@ -108,7 +108,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Option Buttons_0
+      name: Easy Button
       rect:
         serializedVersion: 2
         x: 0
@@ -121,7 +121,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Option Buttons_1
+      name: Medium Button
       rect:
         serializedVersion: 2
         x: 1
@@ -134,7 +134,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Option Buttons_2
+      name: Hard Button
       rect:
         serializedVersion: 2
         x: 3
@@ -147,7 +147,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Option Buttons_3
+      name: Check Sign
       rect:
         serializedVersion: 2
         x: 60
@@ -160,7 +160,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Option Buttons_4
+      name: Back Button
       rect:
         serializedVersion: 2
         x: 134
