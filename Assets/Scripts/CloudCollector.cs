@@ -13,5 +13,7 @@ public class CloudCollector : MonoBehaviour {
 	}
 
 	void run()
-	
+	{
+		
+	}
 }
