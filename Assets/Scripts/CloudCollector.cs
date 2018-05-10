@@ -16,6 +16,6 @@ public class CloudCollector : MonoBehaviour {
 	{
 		float forceX = 0f;
 
-		
+		float velocit
 	}
 }
