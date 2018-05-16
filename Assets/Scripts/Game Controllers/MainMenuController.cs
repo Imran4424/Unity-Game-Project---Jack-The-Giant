@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Scene
 
 public class MainMenuController : MonoBehaviour {
 
@@ -12,7 +13,7 @@ public class MainMenuController : MonoBehaviour {
 	
 	public void StartGame()
 	{
-		
+		Scene
 	}
 	
 }
