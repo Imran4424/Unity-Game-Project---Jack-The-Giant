@@ -10,5 +10,9 @@ public class MainMenuController : MonoBehaviour {
 		
 	}
 	
+	public void StartGame()
+	{
+		
+	}
 	
 }
