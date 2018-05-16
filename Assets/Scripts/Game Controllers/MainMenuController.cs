@@ -13,7 +13,8 @@ public class MainMenuController : MonoBehaviour {
 	
 	public void StartGame()
 	{
-		SceneManager.loadScene("Gameplay", loadScene);
+		Application.
 	}
+	
 	
 }
