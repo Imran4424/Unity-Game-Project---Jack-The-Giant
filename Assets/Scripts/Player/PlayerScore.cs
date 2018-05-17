@@ -12,7 +12,7 @@ public class PlayerScore : MonoBehaviour {
 	private Vector3 peviousPosition;
 	private bool countScore;
 
-	
+	public static int scoreCount;	
 	// Use this for initialization
 	void Start () {
 		
