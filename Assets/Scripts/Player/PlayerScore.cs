@@ -69,7 +69,7 @@ public class PlayerScore : MonoBehaviour
 			target.gameObject.SetActive (false);
 		}
 
-		if (true)
+		if (target.tag == "Bounds")
 		{
 			
 		}
