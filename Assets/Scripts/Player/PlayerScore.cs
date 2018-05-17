@@ -71,7 +71,7 @@ public class PlayerScore : MonoBehaviour
 
 		if (target.tag == "Bounds")
 		{
-			
+			cameraScript.movecamera = false;
 		}
 	}
 }
