@@ -55,7 +55,7 @@ public class PlayerScore : MonoBehaviour {
 
 			scoreCount += 200;
 
-			AudioSource.PlayClipAtPoint();
+			AudioSource.PlayClipAtPoint(coinClip,transform.position);
 		}
 	}
 }
