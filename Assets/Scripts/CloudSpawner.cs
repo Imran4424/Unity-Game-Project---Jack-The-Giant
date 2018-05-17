@@ -196,7 +196,16 @@ public class CloudSpawner : MonoBehaviour
 
 						if(clouds[i].tag != "Deadly")
 						{
-							
+							if (!Collectables[random].activeInHierarchy)
+							{
+								Vector3 new_position = clouds[i].transform.position;
+								new_position.y += 0.7f;
+
+								if(Collectables[random].tag == "Coin")
+								{
+									
+								}
+							}
 						}
 					}
 				}
