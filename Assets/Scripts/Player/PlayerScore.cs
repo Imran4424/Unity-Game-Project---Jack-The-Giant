@@ -47,5 +47,8 @@ public class PlayerScore : MonoBehaviour {
 		}
 	}
 
-	
+	void OnTriggerEnter2D(Collider2D target)
+	{
+		
+	}
 }
