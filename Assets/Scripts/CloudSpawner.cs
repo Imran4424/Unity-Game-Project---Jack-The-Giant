@@ -28,6 +28,11 @@ public class CloudSpawner : MonoBehaviour
 		createClouds ();
 
 		player = GameObject.Find ("Player");
+
+		for (int i = 0; i < Collectables.Length; i++)
+		{
+			
+		}
 	}
 
 	void Start ()
