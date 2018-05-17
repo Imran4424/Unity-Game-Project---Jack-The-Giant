@@ -75,6 +75,18 @@ public class PlayerScore : MonoBehaviour
 			count_Score = false;
 
 			lifeScoreCount--;
+
+			transform.position = new Vector3 (500, 500, 0);
+		}
+
+		if (target.tag == "Deadly")
+		{
+			cameraScript.movecamera = false;
+			count_Score = false;
+
+			lifeScoreCount--;
+
+			transform.position = new Vector3 (500, 500, 0);
 		}
 	}
 }
