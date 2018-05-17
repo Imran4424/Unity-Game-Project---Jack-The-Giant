@@ -191,6 +191,8 @@ public class CloudSpawner : MonoBehaviour
 
 						clouds[i].transform.transform.position = temp;
 						clouds[i].SetActive(true);
+
+						
 					}
 				}
 			}
