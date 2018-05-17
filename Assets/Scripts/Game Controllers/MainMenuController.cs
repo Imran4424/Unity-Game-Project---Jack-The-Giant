@@ -27,4 +27,9 @@ public class MainMenuController : MonoBehaviour
 		SceneManager.LoadScene("About",LoadSceneMode.Single);
 	}
 
+	public void OptionsMenu()
+	{
+		
+	}
+
 }
