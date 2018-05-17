@@ -5,9 +5,11 @@ using UnityEngine;
 public class PlayerScore : MonoBehaviour {
 
 	[SerializeField]
+	private AudioClip coinClip,lifeClip;
+
+	private CameraScript cameraScript;
+
 	
-
-
 	// Use this for initialization
 	void Start () {
 		
