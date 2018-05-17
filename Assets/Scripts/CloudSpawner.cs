@@ -201,9 +201,12 @@ public class CloudSpawner : MonoBehaviour
 								Vector3 new_position = clouds[i].transform.position;
 								new_position.y += 0.7f;
 
-								if(Collectables[random].tag == "Coin")
+								if(Collectables[random].tag == "Life")
 								{
-									
+									if(PlayerScore.lifeScoreCount < 2)
+									{
+										
+									}
 								}
 							}
 						}
