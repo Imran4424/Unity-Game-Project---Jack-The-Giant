@@ -68,5 +68,10 @@ public class PlayerScore : MonoBehaviour
 			AudioSource.PlayClipAtPoint (lifeClip, transform.position);
 			target.gameObject.SetActive (false);
 		}
+
+		if (true)
+		{
+			
+		}
 	}
 }
