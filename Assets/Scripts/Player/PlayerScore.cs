@@ -32,5 +32,8 @@ public class PlayerScore : MonoBehaviour {
 		
 	}
 
-	void countScore
+	void countScore()
+	{
+		
+	}
 }
