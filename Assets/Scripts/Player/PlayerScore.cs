@@ -34,6 +34,9 @@ public class PlayerScore : MonoBehaviour {
 
 	void countScore()
 	{
-		
+		if (count_Score)
+		{
+			
+		}
 	}
 }
