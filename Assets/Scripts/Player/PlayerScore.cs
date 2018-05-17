@@ -31,7 +31,7 @@ public class PlayerScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-			
+		countScore();	
 	}
 
 	void countScore()
