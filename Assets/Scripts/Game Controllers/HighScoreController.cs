@@ -17,7 +17,7 @@ public class HighScoreController : MonoBehaviour {
 
 	public void BackButton()
 	{
-		
+		SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
 	}
 
 }
