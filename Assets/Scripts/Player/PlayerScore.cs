@@ -10,7 +10,7 @@ public class PlayerScore : MonoBehaviour {
 	private CameraScript cameraScript;
 
 	private Vector3 peviousPosition;
-	
+	private bool countScore;
 	// Use this for initialization
 	void Start () {
 		
