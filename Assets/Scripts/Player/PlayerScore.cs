@@ -16,7 +16,7 @@ public class PlayerScore : MonoBehaviour {
 	public static int lifeScoreCount;
 	public static int coinScoreCount;
 
-	public bool moveCamera;
+	
 
 	void Awake()
 	{
