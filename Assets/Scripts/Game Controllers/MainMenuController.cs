@@ -34,6 +34,11 @@ public class MainMenuController : MonoBehaviour
 
 	public void QuitMenu()
 	{
+
+	}
+
+	public void MusicButton()
+	{
 		
 	}
 
