@@ -29,6 +29,7 @@ public class PlayerScore : MonoBehaviour
 
 		scoreCount = 0;
 		coinScoreCount = 0;
+		lifeScoreCount = 0;
 	}
 
 	// Update is called once per frame
