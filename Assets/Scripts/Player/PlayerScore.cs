@@ -15,15 +15,21 @@ public class PlayerScore : MonoBehaviour {
 	public static int scoreCount;
 	public static int lifeScoreCount;
 	public static int coinScoreCount;
-	
-		
+
+	void Awake()
+	{
+		cameraScript = Camera.main.GetComponent<CameraScript>();
+	}	
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+			
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+
 }
