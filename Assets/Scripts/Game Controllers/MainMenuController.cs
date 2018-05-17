@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuController : MonoBehaviour {
+public class MainMenuController : MonoBehaviour
+{
 
 	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
-		
+
 	}
-	
-	public void StartGame()
+
+	public void StartGame ()
 	{
-	SceneManager
+		SceneManager.LoadScene ("GamePlay", LoadSceneMode.Single);
 	}
-	
-	
+
 }
