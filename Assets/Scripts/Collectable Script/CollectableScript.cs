@@ -11,6 +11,6 @@ public class CollectableScript : MonoBehaviour {
 
 	void destroyCollectables()
 	{
-		
+		gameObject.SetActive(false);
 	}
 }
