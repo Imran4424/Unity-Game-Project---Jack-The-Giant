@@ -46,4 +46,6 @@ public class PlayerScore : MonoBehaviour {
 			previousPosition = transform.position;
 		}
 	}
+
+	
 }
