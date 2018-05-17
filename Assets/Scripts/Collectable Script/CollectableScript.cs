@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class CollectableScript : MonoBehaviour {
 
-	
+	void OnEnable()
+	{
+		
+	}
 }
