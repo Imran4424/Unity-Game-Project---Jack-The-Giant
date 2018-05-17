@@ -32,4 +32,9 @@ public class MainMenuController : MonoBehaviour
 		SceneManager.LoadScene("Options",LoadSceneMode.Single);
 	}
 
+	public void QuitMenu()
+	{
+		
+	}
+
 }
