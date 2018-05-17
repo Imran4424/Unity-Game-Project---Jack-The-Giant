@@ -17,6 +17,6 @@ public class OptionsController : MonoBehaviour {
 
 	public void BackButton()
 	{
-		
+		SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
 	}
 }
