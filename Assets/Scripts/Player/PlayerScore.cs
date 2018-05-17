@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerScore : MonoBehaviour {
+public class PlayerScore : MonoBehaviour
+{
 
 	[SerializeField]
-	private AudioClip coinClip,lifeClip;
+	private AudioClip coinClip, lifeClip;
 
 	private CameraScript cameraScript;
 
@@ -16,27 +17,25 @@ public class PlayerScore : MonoBehaviour {
 	public static int lifeScoreCount;
 	public static int coinScoreCount;
 
-	
-
-	void Awake()
+	void Awake ()
 	{
-		cameraScript = Camera.main.GetComponent<CameraScript>();
-	}	
+		cameraScript = Camera.main.GetComponent<CameraScript> ();
+	}
 	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
 		previousPosition = transform.position;
 		count_Score = true;
 		scoreCount = 0;
 	}
-	
+
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
-		countScore();	
+		countScore ();
 	}
 
-	void countScore()
+	void countScore ()
 	{
 		if (count_Score)
 		{
@@ -49,7 +48,7 @@ public class PlayerScore : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter2D(Collider2D target)
+	void OnTriggerEnter2D (Collider2D target)
 	{
 		if (target.tag == "Coin")
 		{
@@ -57,13 +56,17 @@ public class PlayerScore : MonoBehaviour {
 
 			scoreCount += 200;
 
-			AudioSource.PlayClipAtPoint(coinClip,transform.position);
-			target.gameObject.SetActive(false);
+			AudioSource.PlayClipAtPoint (coinClip, transform.position);
+			target.gameObject.SetActive (false);
 		}
 
 		if (target.tag == "Life")
 		{
-			
+			lifeScoreCount++;
+			scoreCount += 300;
+
+			AudioSource.PlayClipAtPoint (lifeClip, transform.position);
+			target.gameObject.SetActive (false);
 		}
 	}
 }
