@@ -192,25 +192,29 @@ public class CloudSpawner : MonoBehaviour
 						clouds[i].transform.transform.position = temp;
 						clouds[i].SetActive (true);
 
+						/*
+						* positioning collectables on top of clouds
+						*/
+
 						int random = Random.Range (0, Collectables.Length);
 
 						if (clouds[i].tag != "Deadly")
 						{
 							if (!Collectables[random].activeInHierarchy)
 							{
-								Vector3 new_position = clouds[i].transform.position;
-								new_position.y += 0.7f;
+								Vector3 coin_position = clouds[i].transform.position;
+								coin_position.y += 0.7f;
 
 								if (Collectables[random].tag == "Life")
 								{
 									if (PlayerScore.lifeScoreCount < 2)
 									{
-										Collectables[random].transform.position = new_position;
+										Collectables[random].transform.position = coin_position;
 										Collectables[random].SetActive (true);
 									}
 									else
 									{
-										Collectables[random].transform.position = new_position;
+										Collectables[random].transform.position = coin_position;
 										Collectables[random].SetActive (true);
 									}
 								}
