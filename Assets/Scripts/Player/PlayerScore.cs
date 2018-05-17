@@ -10,7 +10,7 @@ public class PlayerScore : MonoBehaviour {
 	private CameraScript cameraScript;
 
 	private Vector3 previousPosition;
-	private bool countScore;
+	private bool count_Score;
 
 	public static int scoreCount;
 	public static int lifeScoreCount;
@@ -24,7 +24,7 @@ public class PlayerScore : MonoBehaviour {
 	void Start () 
 	{
 		previousPosition = transform.position;
-		countScore = true;	
+		count_Score = true;	
 	}
 	
 	// Update is called once per frame
@@ -32,5 +32,5 @@ public class PlayerScore : MonoBehaviour {
 		
 	}
 
-
+	void countScore
 }
