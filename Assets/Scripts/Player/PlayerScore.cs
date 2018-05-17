@@ -38,8 +38,10 @@ public class PlayerScore : MonoBehaviour {
 		{
 			if (transform.position.y < previousPosition.y)
 			{
-				
+				scoreCount++;
 			}
+
+			previousPosition = transform.position;
 		}
 	}
 }
