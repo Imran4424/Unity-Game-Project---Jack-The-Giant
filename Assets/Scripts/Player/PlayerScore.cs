@@ -51,7 +51,9 @@ public class PlayerScore : MonoBehaviour {
 	{
 		if (target.tag == "Coin")
 		{
-			
+			coinScoreCount++;
+
+			scoreCount += 200;
 		}
 	}
 }
