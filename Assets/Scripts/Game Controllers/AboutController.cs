@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class AboutController : MonoBehaviour {
 
-	
+	public void BackButton()
+	{
+		
+	}
 }
