@@ -192,7 +192,12 @@ public class CloudSpawner : MonoBehaviour
 						clouds[i].transform.transform.position = temp;
 						clouds[i].SetActive(true);
 
-						
+						int random = Random.Range(0,Collectables.Length);
+
+						if(clouds[i].tag != "Deadly")
+						{
+							
+						}
 					}
 				}
 			}
