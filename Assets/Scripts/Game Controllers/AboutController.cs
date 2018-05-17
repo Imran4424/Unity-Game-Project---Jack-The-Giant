@@ -7,6 +7,6 @@ public class AboutController : MonoBehaviour {
 
 	public void BackButton()
 	{
-		SceneManager.LoadScene();
+		SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
 	}
 }
