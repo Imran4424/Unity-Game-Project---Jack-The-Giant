@@ -29,7 +29,7 @@ public class MainMenuController : MonoBehaviour
 
 	public void OptionsMenu()
 	{
-		
+		SceneManager.LoadScene();
 	}
 
 }
