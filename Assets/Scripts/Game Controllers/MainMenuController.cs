@@ -19,7 +19,7 @@ public class MainMenuController : MonoBehaviour
 
 	public void HighScoreMenu()
 	{
-		SceneManager
+		SceneManager.LoadScene
 	}
 
 }
