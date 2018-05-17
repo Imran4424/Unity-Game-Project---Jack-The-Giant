@@ -31,7 +31,7 @@ public class CloudSpawner : MonoBehaviour
 
 		for (int i = 0; i < Collectables.Length; i++)
 		{
-			
+			Collectables[i].SetActive(false);
 		}
 	}
 
