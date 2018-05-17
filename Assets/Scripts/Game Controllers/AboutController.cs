@@ -6,6 +6,6 @@ public class AboutController : MonoBehaviour {
 
 	public void BackButton()
 	{
-		
+		SceneManager.loa
 	}
 }
