@@ -17,4 +17,9 @@ public class MainMenuController : MonoBehaviour
 		SceneManager.LoadScene ("GamePlay", LoadSceneMode.Single);
 	}
 
+	public void HighScoreMenu()
+	{
+		
+	}
+
 }
