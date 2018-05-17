@@ -36,7 +36,7 @@ public class PlayerScore : MonoBehaviour {
 	{
 		if (count_Score)
 		{
-			if (true)
+			if (transform.position.y < previousPosition.y)
 			{
 				
 			}
