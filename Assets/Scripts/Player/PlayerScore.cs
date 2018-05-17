@@ -14,7 +14,9 @@ public class PlayerScore : MonoBehaviour {
 
 	public static int scoreCount;
 	public static int lifeScoreCount;
-	public static int coinScoreCount;	
+	public static int coinScoreCount;
+	
+		
 	// Use this for initialization
 	void Start () {
 		
