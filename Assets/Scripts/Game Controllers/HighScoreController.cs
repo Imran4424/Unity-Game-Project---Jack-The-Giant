@@ -14,6 +14,9 @@ public class HighScoreController : MonoBehaviour {
 		
 	}
 
-	
+	public void BackButton()
+	{
+		
+	}
 
 }
