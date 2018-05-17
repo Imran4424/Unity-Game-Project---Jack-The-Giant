@@ -26,7 +26,9 @@ public class PlayerScore : MonoBehaviour
 	{
 		previousPosition = transform.position;
 		count_Score = true;
+
 		scoreCount = 0;
+		coinScoreCount = 0;
 	}
 
 	// Update is called once per frame
