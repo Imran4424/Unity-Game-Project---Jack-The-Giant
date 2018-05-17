@@ -31,7 +31,7 @@ public class CloudSpawner : MonoBehaviour
 
 		for (int i = 0; i < Collectables.Length; i++)
 		{
-			Collectables[i].SetActive(false);
+			Collectables[i].SetActive (false);
 		}
 	}
 
@@ -190,22 +190,28 @@ public class CloudSpawner : MonoBehaviour
 						lastCloudPositionY = temp.y;
 
 						clouds[i].transform.transform.position = temp;
-						clouds[i].SetActive(true);
+						clouds[i].SetActive (true);
 
-						int random = Random.Range(0,Collectables.Length);
+						int random = Random.Range (0, Collectables.Length);
 
-						if(clouds[i].tag != "Deadly")
+						if (clouds[i].tag != "Deadly")
 						{
 							if (!Collectables[random].activeInHierarchy)
 							{
 								Vector3 new_position = clouds[i].transform.position;
 								new_position.y += 0.7f;
 
-								if(Collectables[random].tag == "Life")
+								if (Collectables[random].tag == "Life")
 								{
-									if(PlayerScore.lifeScoreCount < 2)
+									if (PlayerScore.lifeScoreCount < 2)
 									{
-										
+										Collectables[random].transform.position = new_position;
+										Collectables[random].SetActive (true);
+									}
+									else
+									{
+										Collectables[random].transform.position = new_position;
+										Collectables[random].SetActive (true);
 									}
 								}
 							}
