@@ -7,5 +7,6 @@ public class GamePlayController : MonoBehaviour {
 
 	public static GamePlayController instance;
 
-
+	[SerializeField]
+	private Text scoretext,cointext,lifetext;
 }
