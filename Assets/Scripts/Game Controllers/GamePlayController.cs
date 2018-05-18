@@ -32,6 +32,8 @@ public class GamePlayController : MonoBehaviour {
 		gameOverpanel.SetActive(true);
 		gameOverscoretext.text = finalscore.ToString();
 		gameOvercointext.text = finalcoin.ToString();
+
+		StartCoroutine(gameOverLoadMainMenu());
 	}
 
 
