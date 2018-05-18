@@ -27,9 +27,9 @@ public class GamePlayController : MonoBehaviour {
 		}
 	}
 
-	public void gameOvershowPanel()
+	public void gameOvershowPanel(int finalscore, int finalcoin)
 	{
-		
+
 	}
 
 	public void setScore(int score)
