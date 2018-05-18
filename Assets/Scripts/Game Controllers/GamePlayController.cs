@@ -41,6 +41,7 @@ public class GamePlayController : MonoBehaviour {
 
 	public void quitGame()
 	{
+		Time.timeScale = 1f;
 		
 	}
 }
