@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class GamePlayController : MonoBehaviour {
 
-	
+	public static GamePlayController instance;
 }
