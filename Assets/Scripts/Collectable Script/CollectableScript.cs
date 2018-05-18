@@ -6,7 +6,7 @@ public class CollectableScript : MonoBehaviour {
 
 	void OnEnable()
 	{
-		Invoke("destroyCollectables",6f);
+		Invoke("destroyCollectables",6.0f);
 	}
 
 	void destroyCollectables()
