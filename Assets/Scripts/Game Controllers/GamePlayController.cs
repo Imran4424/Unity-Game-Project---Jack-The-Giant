@@ -30,10 +30,7 @@ public class GamePlayController : MonoBehaviour
 		Time.timeScale = 0f;
 	}
 
-	void positionThePlayer ()
-	{
-		CloudSpawner.instance.positionThePlayer();
-	}
+	
 
 	void makeInstance ()
 	{

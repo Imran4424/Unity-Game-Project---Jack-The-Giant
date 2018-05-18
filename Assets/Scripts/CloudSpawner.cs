@@ -5,7 +5,7 @@ using UnityEngine;
 public class CloudSpawner : MonoBehaviour
 {
 
-	public static CloudSpawner instance;
+	//public static CloudSpawner instance;
 
 	[SerializeField]
 	private GameObject[] clouds;
@@ -25,7 +25,7 @@ public class CloudSpawner : MonoBehaviour
 
 	void Awake ()
 	{
-		makeInstance ();
+		
 
 		controlX = 0;
 		setMinAndMaxX ();
@@ -39,13 +39,7 @@ public class CloudSpawner : MonoBehaviour
 		}
 	}
 
-	void makeInstance ()
-	{
-		if (instance == null)
-		{
-			instance = this;
-		}
-	}
+	
 
 	void Start ()
 	{
@@ -121,7 +115,7 @@ public class CloudSpawner : MonoBehaviour
 		}
 	}
 
-	public void positionThePlayer ()
+	void positionThePlayer ()
 	{
 		GameObject[] darkClouds = GameObject.FindGameObjectsWithTag ("Deadly");
 		GameObject[] cloudsInGame = GameObject.FindGameObjectsWithTag ("Cloud");
