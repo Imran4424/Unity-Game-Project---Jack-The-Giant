@@ -89,6 +89,6 @@ public class GamePlayController : MonoBehaviour {
 
 	public void startTheGame()
 	{
-		
+		Time.timeScale = 1f;
 	}
 }
