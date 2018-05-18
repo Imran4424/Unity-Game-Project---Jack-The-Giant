@@ -29,7 +29,8 @@ public class GamePlayController : MonoBehaviour {
 
 	public void pauseTheGame()
 	{
-		
+		Time.timeScale = 0f;
+		pausepanel.SetActive(true);
 	}
 
 }
