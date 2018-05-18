@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\CloudSpawner.cs" />
      <Compile Include="Assets\Scripts\Collectable Script\CollectableScript.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\AboutController.cs" />
+     <Compile Include="Assets\Scripts\Game Controllers\GamePlayController.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\HighScoreController.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\MainMenuController.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\OptionsController.cs" />
