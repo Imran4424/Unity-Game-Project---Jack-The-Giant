@@ -27,9 +27,9 @@ public class GamePlayController : MonoBehaviour {
 		}
 	}
 
-	public void setScore()
+	public void setScore(int score)
 	{
-		
+		scoretext.text = "x" + score;
 	}
 
 	public void pauseTheGame()
