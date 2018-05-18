@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GamePlayController : MonoBehaviour {
 
@@ -42,6 +43,6 @@ public class GamePlayController : MonoBehaviour {
 	public void quitGame()
 	{
 		Time.timeScale = 1f;
-		
+
 	}
 }
