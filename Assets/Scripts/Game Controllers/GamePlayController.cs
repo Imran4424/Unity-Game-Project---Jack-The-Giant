@@ -29,7 +29,9 @@ public class GamePlayController : MonoBehaviour {
 
 	public void gameOvershowPanel(int finalscore, int finalcoin)
 	{
-
+		gameOverpanel.SetActive(true);
+		gameOverscoretext.text = finalscore.ToString();
+		gameOvercointext.text = finalcoin.ToString();
 	}
 
 	public void setScore(int score)
