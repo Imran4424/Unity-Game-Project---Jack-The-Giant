@@ -37,6 +37,11 @@ public class GamePlayController : MonoBehaviour {
 		cointext.text = "x" + coinscore;
 	}
 
+	public void setLifeScore(int lifescore)
+	{
+		lifetext.text = "x" + lifescore;
+	}
+
 	public void pauseTheGame()
 	{
 		Time.timeScale = 0f;
