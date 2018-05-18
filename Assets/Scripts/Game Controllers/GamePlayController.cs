@@ -34,6 +34,16 @@ public class GamePlayController : MonoBehaviour {
 		gameOvercointext.text = finalcoin.ToString();
 	}
 
+
+	// co-routine for waiting 3 seconds and then load main menu
+	IEnumerator gameOverLoadMainMenu()
+	{
+		
+		yield return new WaitForSeconds(3f);
+
+		
+	}
+
 	public void setScore(int score)
 	{
 		scoretext.text = score.ToString();
