@@ -48,6 +48,8 @@ public class PlayerScore : MonoBehaviour
 			}
 
 			previousPosition = transform.position;
+
+			GamePlayController.instance.setScore (scoreCount);
 		}
 	}
 
