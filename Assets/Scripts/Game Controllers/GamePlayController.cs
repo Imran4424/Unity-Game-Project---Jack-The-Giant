@@ -39,4 +39,8 @@ public class GamePlayController : MonoBehaviour {
 		pausepanel.SetActive(false);
 	}
 
+	public void quitGame()
+	{
+		
+	}
 }
