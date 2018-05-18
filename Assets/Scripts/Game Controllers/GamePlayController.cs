@@ -14,9 +14,17 @@ public class GamePlayController : MonoBehaviour {
 	[SerializeField]
 	private GameObject pausepanel,gameOverpanel;
 
+	[SerializeField]
+	private Button readyButton;
+
 	void Awake()
 	{
 		makeInstance();
+	}
+
+	void Start()
+	{
+		Time.timeScale = 0f;
 	}
 
 	void makeInstance()
