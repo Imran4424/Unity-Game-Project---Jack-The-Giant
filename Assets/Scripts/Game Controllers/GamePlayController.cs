@@ -22,7 +22,7 @@ public class GamePlayController : MonoBehaviour {
 	{
 		if (instance == null)
 		{
-			
+			instance = this;
 		}
 	}
 }
