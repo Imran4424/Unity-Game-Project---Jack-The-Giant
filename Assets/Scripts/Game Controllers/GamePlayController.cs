@@ -41,7 +41,7 @@ public class GamePlayController : MonoBehaviour {
 		
 		yield return new WaitForSeconds(3f);
 
-		
+		SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
 	}
 
 	public void setScore(int score)
