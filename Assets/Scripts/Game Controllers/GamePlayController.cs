@@ -9,4 +9,7 @@ public class GamePlayController : MonoBehaviour {
 
 	[SerializeField]
 	private Text scoretext,cointext,lifetext;
+
+	[SerializeField]
+	private GameObject pausepanel;
 }
