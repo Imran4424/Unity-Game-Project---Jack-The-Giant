@@ -59,8 +59,8 @@ public class PlayerScore : MonoBehaviour
 
 			scoreCount += 200;
 
-			GamePlayController.instance.setCoinScore(coinScoreCount);
-			GamePlayController.instance.setScore(scoreCount);
+			GamePlayController.instance.setCoinScore (coinScoreCount);
+			GamePlayController.instance.setScore (scoreCount);
 
 			AudioSource.PlayClipAtPoint (coinClip, transform.position);
 			target.gameObject.SetActive (false);
@@ -70,6 +70,9 @@ public class PlayerScore : MonoBehaviour
 		{
 			lifeScoreCount++;
 			scoreCount += 300;
+
+			GamePlayController.instance.setLifeScore (lifeScoreCount);
+			GamePlayController.instance.setScore (scoreCount);
 
 			AudioSource.PlayClipAtPoint (lifeClip, transform.position);
 			target.gameObject.SetActive (false);
