@@ -27,6 +27,11 @@ public class GamePlayController : MonoBehaviour {
 		}
 	}
 
+	public void gameOvershowPanel()
+	{
+		
+	}
+
 	public void setScore(int score)
 	{
 		scoretext.text = score.ToString();
