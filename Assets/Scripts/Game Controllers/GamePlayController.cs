@@ -15,7 +15,7 @@ public class GamePlayController : MonoBehaviour {
 	private GameObject pausepanel,gameOverpanel;
 
 	[SerializeField]
-	private Button readyButton;
+	private GameObject readyButton;
 
 	void Awake()
 	{
@@ -90,5 +90,6 @@ public class GamePlayController : MonoBehaviour {
 	public void startTheGame()
 	{
 		Time.timeScale = 1f;
+		readyButton.SetActive(false);
 	}
 }
