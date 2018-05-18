@@ -59,6 +59,9 @@ public class PlayerScore : MonoBehaviour
 
 			scoreCount += 200;
 
+			GamePlayController.instance.setCoinScore(coinScoreCount);
+			GamePlayController.instance.setScore(scoreCount);
+
 			AudioSource.PlayClipAtPoint (coinClip, transform.position);
 			target.gameObject.SetActive (false);
 		}
