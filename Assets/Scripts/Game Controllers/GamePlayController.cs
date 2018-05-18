@@ -22,7 +22,7 @@ public class GamePlayController : MonoBehaviour
 	{
 		makeInstance ();
 
-		positionThePlayer ();
+		//positionThePlayer ();
 	}
 
 	void Start ()
