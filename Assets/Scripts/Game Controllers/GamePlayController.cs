@@ -20,7 +20,7 @@ public class GamePlayController : MonoBehaviour {
 
 	void makeInstance()
 	{
-		if (true)
+		if (instance == null)
 		{
 			
 		}
