@@ -33,4 +33,9 @@ public class GamePlayController : MonoBehaviour {
 		pausepanel.SetActive(true);
 	}
 
+	public void resumeGame()
+	{
+		
+	}
+
 }
