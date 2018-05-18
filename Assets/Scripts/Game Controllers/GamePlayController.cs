@@ -32,7 +32,7 @@ public class GamePlayController : MonoBehaviour
 
 	void positionThePlayer ()
 	{
-		new CloudSpawner ();
+		CloudSpawner.instance.positionThePlayer();
 	}
 
 	void makeInstance ()

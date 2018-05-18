@@ -5,6 +5,8 @@ using UnityEngine;
 public class CloudSpawner : MonoBehaviour
 {
 
+	public static CloudSpawner instance;
+
 	[SerializeField]
 	private GameObject[] clouds;
 
@@ -23,6 +25,8 @@ public class CloudSpawner : MonoBehaviour
 
 	void Awake ()
 	{
+		makeInstance ();
+
 		controlX = 0;
 		setMinAndMaxX ();
 		createClouds ();
@@ -32,6 +36,14 @@ public class CloudSpawner : MonoBehaviour
 		for (int i = 0; i < Collectables.Length; i++)
 		{
 			Collectables[i].SetActive (false);
+		}
+	}
+
+	void makeInstance ()
+	{
+		if (instance == null)
+		{
+			instance = this;
 		}
 	}
 
@@ -109,7 +121,7 @@ public class CloudSpawner : MonoBehaviour
 		}
 	}
 
-	void positionThePlayer ()
+	public void positionThePlayer ()
 	{
 		GameObject[] darkClouds = GameObject.FindGameObjectsWithTag ("Deadly");
 		GameObject[] cloudsInGame = GameObject.FindGameObjectsWithTag ("Cloud");
@@ -193,8 +205,8 @@ public class CloudSpawner : MonoBehaviour
 						clouds[i].SetActive (true);
 
 						/*
-						* positioning collectables on top of clouds
-						*/
+						 * positioning collectables on top of clouds
+						 */
 
 						int random = Random.Range (0, Collectables.Length);
 
