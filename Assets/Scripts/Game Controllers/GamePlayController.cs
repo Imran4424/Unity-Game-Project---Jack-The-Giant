@@ -86,4 +86,9 @@ public class GamePlayController : MonoBehaviour {
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
 	}
+
+	public void startTheGame()
+	{
+		
+	}
 }
