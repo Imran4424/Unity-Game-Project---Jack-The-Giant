@@ -25,4 +25,11 @@ public class GamePlayController : MonoBehaviour {
 			instance = this;
 		}
 	}
+
+
+	public void pauseTheGame()
+	{
+		
+	}
+
 }
