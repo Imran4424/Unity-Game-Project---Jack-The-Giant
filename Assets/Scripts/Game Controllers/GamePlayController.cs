@@ -27,6 +27,10 @@ public class GamePlayController : MonoBehaviour {
 		}
 	}
 
+	public void setScore()
+	{
+		
+	}
 
 	public void pauseTheGame()
 	{
