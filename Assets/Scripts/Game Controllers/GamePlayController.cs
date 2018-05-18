@@ -12,7 +12,7 @@ public class GamePlayController : MonoBehaviour {
 	private Text scoretext,cointext,lifetext,gameOverscoretext, gameOvercointext;
 
 	[SerializeField]
-	private GameObject pausepanel;
+	private GameObject pausepanel,gameOverpanel;
 
 	void Awake()
 	{
