@@ -30,8 +30,6 @@ public class GamePlayController : MonoBehaviour
 		Time.timeScale = 0f;
 	}
 
-	
-
 	void makeInstance ()
 	{
 		if (instance == null)
@@ -58,10 +56,11 @@ public class GamePlayController : MonoBehaviour
 		SceneManager.LoadScene ("MainMenu", LoadSceneMode.Single);
 	}
 
-	IEnumerator playerDiedRestart()
+	IEnumerator playerDiedRestart ()
 	{
-		
-		yield return null;
+		yield return new WaitForSeconds (1f);
+
+		SceneManager.LoadScene ("MainMenu", LoadSceneMode.Single);
 	}
 
 	public void setScore (int score)
@@ -71,12 +70,12 @@ public class GamePlayController : MonoBehaviour
 
 	public void setCoinScore (int coinscore)
 	{
-		cointext.text = coinscore.ToString();
+		cointext.text = coinscore.ToString ();
 	}
 
 	public void setLifeScore (int lifescore)
 	{
-		lifetext.text = lifescore.ToString();
+		lifetext.text = lifescore.ToString ();
 	}
 
 	public void pauseTheGame ()
