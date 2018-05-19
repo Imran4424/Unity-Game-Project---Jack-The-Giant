@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void OnLevelWasLoaded()
-	{}
+	{
+		
+	}
 
 
 	/*
