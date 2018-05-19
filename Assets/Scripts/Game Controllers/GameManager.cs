@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 	public bool gameStartedFormMainMenu, gameStartedAfterPlayerDied;
 
 	[HideInInspector]
-	public int score = 0, coinScore = 0, lifeScore = 0;
+	public int score, coinScore, lifeScore;
 
 	void Awake ()
 	{
@@ -76,6 +76,8 @@ public class GameManager : MonoBehaviour
 
 	public void CheckGameStatus(int score, int coinScore, int lifeScore)
 	{
+		Debug.Log("lifeScore = " + lifeScore);
+
 		if (lifeScore < 0)
 		{
 			gameStartedFormMainMenu = false;
