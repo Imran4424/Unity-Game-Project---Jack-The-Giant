@@ -88,6 +88,9 @@ public class PlayerScore : MonoBehaviour
 			transform.position = new Vector3 (500, 500, 0);
 
 			lifeScoreCount--;
+
+			GameManager.instance.CheckGameStatus (scoreCount, coinScoreCount, lifeScoreCount);
+
 		}
 
 		if (target.tag == "Deadly")
@@ -99,7 +102,7 @@ public class PlayerScore : MonoBehaviour
 
 			lifeScoreCount--;
 
-			GameManager.instance.CheckGameStatus(scoreCount,coinScoreCount,lifeScoreCount);
+			GameManager.instance.CheckGameStatus (scoreCount, coinScoreCount, lifeScoreCount);
 		}
 	}
 }
