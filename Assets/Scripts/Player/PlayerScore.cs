@@ -22,6 +22,7 @@ public class PlayerScore : MonoBehaviour
 	void Awake ()
 	{
 		cameraScript = Camera.main.GetComponent<CameraScript> ();
+		MakeInstance();
 	}
 
 	void MakeInstance()
