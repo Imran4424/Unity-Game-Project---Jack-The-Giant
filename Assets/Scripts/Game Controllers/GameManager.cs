@@ -74,5 +74,8 @@ public class GameManager : MonoBehaviour
 	}
 
 
-	public void CheckGameStatus(int score,int coinScore,int lifeScore)
+	public void CheckGameStatus(int score, int coinScore, int lifeScore)
+	{
+		
+	}
 }
