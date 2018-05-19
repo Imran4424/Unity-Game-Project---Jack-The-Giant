@@ -72,17 +72,21 @@ public class GamePlayController : MonoBehaviour
 	{
 		scoretext.text = score.ToString ();
 
-		PlayerScore.instance.
+		PlayerScore.instance.setScore(score);
 	}
 
 	public void setCoinScore (int coinscore)
 	{
 		cointext.text = coinscore.ToString ();
+
+		PlayerScore.instance.setCoin(coinscore);
 	}
 
 	public void setLifeScore (int lifescore)
 	{
 		lifetext.text = lifescore.ToString ();
+
+		PlayerScore.instance.setLife(lifescore);
 	}
 
 	public void pauseTheGame ()
