@@ -72,7 +72,7 @@ public class GamePlayController : MonoBehaviour
 	{
 		scoretext.text = score.ToString ();
 
-		
+		PlayerScore.instance.
 	}
 
 	public void setCoinScore (int coinscore)

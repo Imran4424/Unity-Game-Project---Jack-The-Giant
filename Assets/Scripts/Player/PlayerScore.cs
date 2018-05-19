@@ -40,7 +40,7 @@ public class PlayerScore : MonoBehaviour
 		count_Score = true;
 	}
 
-	void setScore(int score)
+	public void setScore(int score)
 	{
 		scoreCount = score;
 	}
