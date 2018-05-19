@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
 	public bool gameStartedFormMenu, gameStartedAfterPlayerDied;
 
 	[HideInInspector]
-	
+	public
 
 	void Awake()
 	{
