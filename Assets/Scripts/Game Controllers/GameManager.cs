@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour {
 	[HideInInspector]
 	public bool gameStartedFormMenu, gameStartedAfterPlayerDied;
 
+	[]
+
 	void Awake()
 	{
 		MakeSingleton();
