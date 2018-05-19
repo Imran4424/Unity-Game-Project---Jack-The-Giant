@@ -76,6 +76,11 @@ public class GameManager : MonoBehaviour
 
 	public void CheckGameStatus(int score, int coinScore, int lifeScore)
 	{
+		if (lifeScore < 0)
+		{
+			
+		}
+
 		this.score = score;
 		this.coinScore = coinScore;
 		this.lifeScore = lifeScore;
