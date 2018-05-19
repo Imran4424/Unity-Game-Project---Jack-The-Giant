@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
 
-			GamePlayController.instance.
+			GamePlayController.instance.gameOvershowPanel(score,coinScore);
 		}
 		else
 		{
