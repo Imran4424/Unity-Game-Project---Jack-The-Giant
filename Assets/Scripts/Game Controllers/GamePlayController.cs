@@ -58,6 +58,12 @@ public class GamePlayController : MonoBehaviour
 		SceneManager.LoadScene ("MainMenu", LoadSceneMode.Single);
 	}
 
+	IEnumerator playerDiedRestart()
+	{
+		
+		yield return null;
+	}
+
 	public void setScore (int score)
 	{
 		scoretext.text = score.ToString ();
