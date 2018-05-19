@@ -58,7 +58,7 @@ public class GamePlayController : MonoBehaviour
 
 	public void RestartTheGame()
 	{
-		
+		StartCoroutine(playerDiedRestart());
 	}
 
 	IEnumerator playerDiedRestart ()
