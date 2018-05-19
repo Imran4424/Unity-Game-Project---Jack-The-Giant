@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
 
 				GamePlayController.instance.setScore(score);
 				GamePlayController.instance.setCoinScore(coinScore);
+				GamePlayController.instance.setLifeScore(lifeScore);
 			}
 			else
 			{
