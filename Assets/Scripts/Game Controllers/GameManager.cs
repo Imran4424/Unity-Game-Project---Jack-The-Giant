@@ -20,6 +20,11 @@ public class GameManager : MonoBehaviour {
 		SceneManager.sceneLoaded += this.OnLoadCallback;
 	}
 
+	void OnEnable()
+	{
+		
+	}
+
 	void OnLoadCallback()
 	{
 
