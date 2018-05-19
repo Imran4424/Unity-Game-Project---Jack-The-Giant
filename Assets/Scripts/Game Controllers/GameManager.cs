@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
 	void LevelFinishedLoading (Scene sceneName, LoadSceneMode mode)
 	{
-		if(sceneName.name == "GamePlay")
+		if (sceneName.name == "GamePlay")
 		{
 			if (!GameManager.instance.gameStartedAfterPlayerDied)
 			{
@@ -39,15 +39,20 @@ public class GameManager : MonoBehaviour
 				coinScore = 0;
 				lifeScore = 2;
 
-				GamePlayController.instance.setScore(score);
-				GamePlayController.instance.setCoinScore(coinScore);
-				GamePlayController.instance.setLifeScore(lifeScore);
+				GamePlayController.instance.setScore (score);
+				GamePlayController.instance.setCoinScore (coinScore);
+				GamePlayController.instance.setLifeScore (lifeScore);
 			}
 			else
 			{
 				score = GameManager.instance.score;
 				coinScore = GameManager.instance.coinScore;
 				lifeScore = GameManager.instance.lifeScore;
+
+				GamePlayController.instance.setScore (score);
+				GamePlayController.instance.setCoinScore (coinScore);
+				GamePlayController.instance.setLifeScore (lifeScore);
+
 			}
 		}
 	}
