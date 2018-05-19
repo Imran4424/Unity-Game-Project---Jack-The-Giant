@@ -71,6 +71,8 @@ public class GamePlayController : MonoBehaviour
 	public void setScore (int score)
 	{
 		scoretext.text = score.ToString ();
+
+		
 	}
 
 	public void setCoinScore (int coinscore)

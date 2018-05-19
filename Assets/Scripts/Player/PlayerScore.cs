@@ -26,10 +26,11 @@ public class PlayerScore : MonoBehaviour
 	{
 		previousPosition = transform.position;
 		count_Score = true;
+	}
 
-		/* scoreCount = 0;
-		coinScoreCount = 0;
-		lifeScoreCount = 0; */
+	void setScore()
+	{
+		
 	}
 
 	// Update is called once per frame
