@@ -74,5 +74,5 @@ public class GameManager : MonoBehaviour
 	}
 
 
-	public
+	public void CheckGameStatus(int score,int coinScore,int lifeScore)
 }
