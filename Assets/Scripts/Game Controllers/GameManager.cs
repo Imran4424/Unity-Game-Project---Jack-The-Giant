@@ -94,7 +94,9 @@ public class GameManager : MonoBehaviour
 			GamePlayController.instance.setLifeScore(lifeScore);
 
 			gameStartedFormMainMenu = false;
-			gameStartedAfterPlayerDied = true;			
+			gameStartedAfterPlayerDied = true;
+
+			GamePlayController.instance.RestartTheGame();		
 		}
 
 	}
