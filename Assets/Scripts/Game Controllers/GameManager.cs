@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
 
 	public void CheckGameStatus(int score, int coinScore, int lifeScore)
 	{
-		Debug.Log("lifeScore = " + lifeScore);
+		//Debug.Log("lifeScore = " + lifeScore);
 
 		if (lifeScore < 0)
 		{

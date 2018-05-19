@@ -123,11 +123,11 @@ public class PlayerScore : MonoBehaviour
 
 			transform.position = new Vector3 (500, 500, 0);
 
-			Debug.Log ("PlayerScore before decrement life = " + lifeScoreCount);
+			//Debug.Log ("PlayerScore before decrement life = " + lifeScoreCount);
 
 			lifeScoreCount--;
 
-			Debug.Log ("PlayerScore before decrement life = " + lifeScoreCount);
+			//Debug.Log ("PlayerScore before decrement life = " + lifeScoreCount);
 
 			GameManager.instance.CheckGameStatus (scoreCount, coinScoreCount, lifeScoreCount);
 		}
