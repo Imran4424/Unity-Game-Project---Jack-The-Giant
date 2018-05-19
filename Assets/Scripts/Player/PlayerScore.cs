@@ -23,6 +23,15 @@ public class PlayerScore : MonoBehaviour
 	{
 		cameraScript = Camera.main.GetComponent<CameraScript> ();
 	}
+
+	void MakeInstance()
+	{
+		if (instance == null)
+		{
+			instance = this;
+		}
+	}
+
 	// Use this for initialization
 	void Start ()
 	{
