@@ -98,6 +98,8 @@ public class PlayerScore : MonoBehaviour
 			transform.position = new Vector3 (500, 500, 0);
 
 			lifeScoreCount--;
+
+			GameManager.instance.CheckGameStatus(scoreCount,coinScoreCount,lifeScoreCount);
 		}
 	}
 }
