@@ -70,7 +70,7 @@ public class GamePlayController : MonoBehaviour
 
 	public void setLifeScore (int lifescore)
 	{
-		lifetext.text = "x" + lifescore;
+		lifetext.text = lifescore;
 	}
 
 	public void pauseTheGame ()
