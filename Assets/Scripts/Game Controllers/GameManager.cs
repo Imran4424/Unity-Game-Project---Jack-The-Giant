@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 			}
 			else
 			{
-				
+				score = GameManager.instance.score;
 			}
 		}
 	}
