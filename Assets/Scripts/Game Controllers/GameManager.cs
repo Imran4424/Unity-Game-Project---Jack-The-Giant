@@ -21,10 +21,10 @@ public class GameManager : MonoBehaviour
 
 	void OnEnable ()
 	{
-		SceneManager.sceneLoaded += this.OnLoadCallback;
+		SceneManager.sceneLoaded += level;
 	}
 
-	void OnLoadCallback ()
+	void LevelFinishedLoading ()
 	{
 
 	}
