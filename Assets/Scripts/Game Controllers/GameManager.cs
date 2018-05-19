@@ -87,6 +87,7 @@ public class GameManager : MonoBehaviour
 			this.coinScore = coinScore;
 			this.lifeScore = lifeScore;
 
+			
 			gameStartedAfterPlayerDied = true;			
 		}
 
