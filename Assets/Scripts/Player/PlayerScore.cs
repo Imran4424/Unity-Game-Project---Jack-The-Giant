@@ -28,9 +28,9 @@ public class PlayerScore : MonoBehaviour
 		count_Score = true;
 	}
 
-	void setScore()
+	void setScore(int score)
 	{
-		
+		scoreCount = score;
 	}
 
 	// Update is called once per frame
