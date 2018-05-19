@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
 			else
 			{
 				score = GameManager.instance.score;
+				coinScore = GameManager.instance.coinScore;
 				lifeScore = GameManager.instance.lifeScore;
 			}
 		}
