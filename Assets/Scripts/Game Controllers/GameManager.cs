@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
 	public static GameManager instance;
 
@@ -13,37 +14,34 @@ public class GameManager : MonoBehaviour {
 	[HideInInspector]
 	public int score, coinScore, lifeScore;
 
-	void Awake()
+	void Awake ()
 	{
-		MakeSingleton();
+		MakeSingleton ();
+	}
 
+	void OnEnable ()
+	{
 		SceneManager.sceneLoaded += this.OnLoadCallback;
 	}
 
-	void OnEnable()
-	{
-		
-	}
-
-	void OnLoadCallback()
+	void OnLoadCallback ()
 	{
 
 	}
-
 
 	/*
-	* It's singleton pattern in C# scripts
-	*/
-	void MakeSingleton()
+	 * It's singleton pattern in C# scripts
+	 */
+	void MakeSingleton ()
 	{
 		if (instance != null)
 		{
-			Destroy(gameObject);
+			Destroy (gameObject);
 		}
 		else
 		{
 			instance = this;
-			DontDestroyOnLoad(gameObject);
+			DontDestroyOnLoad (gameObject);
 		}
 	}
 
