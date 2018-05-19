@@ -45,12 +45,12 @@ public class PlayerScore : MonoBehaviour
 		scoreCount = score;
 	}
 
-	void setCoin(int coin)
+	public void setCoin(int coin)
 	{
 		coinScoreCount = coin;
 	}
 
-	void setLife(int life)
+	public void setLife(int life)
 	{
 		lifeScoreCount = life;
 	}
