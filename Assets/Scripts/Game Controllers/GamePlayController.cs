@@ -70,7 +70,7 @@ public class GamePlayController : MonoBehaviour
 
 	public void setLifeScore (int lifescore)
 	{
-		lifetext.text = lifescore;
+		lifetext.text = lifescore.ToString;
 	}
 
 	public void pauseTheGame ()
