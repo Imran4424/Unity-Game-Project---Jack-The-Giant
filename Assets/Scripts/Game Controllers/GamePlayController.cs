@@ -56,6 +56,11 @@ public class GamePlayController : MonoBehaviour
 		SceneManager.LoadScene ("MainMenu", LoadSceneMode.Single);
 	}
 
+	public void RestartTheGame()
+	{
+		
+	}
+
 	IEnumerator playerDiedRestart ()
 	{
 		yield return new WaitForSeconds (1f);
