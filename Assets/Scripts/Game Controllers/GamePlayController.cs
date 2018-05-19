@@ -65,7 +65,7 @@ public class GamePlayController : MonoBehaviour
 
 	public void setCoinScore (int coinscore)
 	{
-		cointext.text = cointext.ToString();
+		cointext.text = coinscore.ToString();
 	}
 
 	public void setLifeScore (int lifescore)
