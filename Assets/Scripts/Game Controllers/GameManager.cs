@@ -80,6 +80,8 @@ public class GameManager : MonoBehaviour
 		{
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
+
+			GamePlayController.instance.
 		}
 		else
 		{
