@@ -33,6 +33,11 @@ public class PlayerScore : MonoBehaviour
 		scoreCount = score;
 	}
 
+	void setCoin(int coin)
+	{
+		coinScoreCount = coin;
+	}
+
 	// Update is called once per frame
 	void Update ()
 	{
