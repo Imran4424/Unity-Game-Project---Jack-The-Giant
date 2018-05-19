@@ -32,6 +32,9 @@ public class GameManager : MonoBehaviour
 	void LevelFinishedLoading (Scene sceneName, LoadSceneMode mode)
 	{
 		if(sceneName.name == "GamePlay")
+		{
+			
+		}
 	}
 
 	/*
