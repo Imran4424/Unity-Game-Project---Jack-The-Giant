@@ -35,7 +35,12 @@ public class GameManager : MonoBehaviour
 		{
 			if (!GameManager.instance.gameStartedAfterPlayerDied)
 			{
-				scoe
+				score = 0;
+				lifeScore = 2;
+			}
+			else
+			{
+				
 			}
 		}
 	}
