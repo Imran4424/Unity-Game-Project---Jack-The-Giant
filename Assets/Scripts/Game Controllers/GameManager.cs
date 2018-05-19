@@ -17,10 +17,7 @@ public class GameManager : MonoBehaviour {
 		MakeSingleton();
 	}
 
-	void OnLevelWasLoaded()
-	{
-		
-	}
+	
 
 
 	/*
