@@ -36,7 +36,10 @@ public class GameManager : MonoBehaviour
 			if (!GameManager.instance.gameStartedAfterPlayerDied)
 			{
 				score = 0;
+				coinScore = 0;
 				lifeScore = 2;
+
+				GamePlayController.instance.se
 			}
 			else
 			{
