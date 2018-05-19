@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerScore : MonoBehaviour
 {
+	public static PlayerScore instance;
+
 
 	[SerializeField]
 	private AudioClip coinClip, lifeClip;
