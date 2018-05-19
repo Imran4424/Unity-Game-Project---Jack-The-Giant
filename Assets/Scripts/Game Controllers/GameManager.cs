@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
 	public bool gameStartedFormMenu, gameStartedAfterPlayerDied;
 
 	[HideInInspector]
-	public int 
+	public int score
 
 	void Awake()
 	{
