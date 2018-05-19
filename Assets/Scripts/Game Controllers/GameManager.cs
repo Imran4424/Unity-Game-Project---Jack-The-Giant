@@ -83,11 +83,10 @@ public class GameManager : MonoBehaviour
 		}
 		else
 		{
-			
+			this.score = score;
+			this.coinScore = coinScore;
+			this.lifeScore = lifeScore;			
 		}
 
-		this.score = score;
-		this.coinScore = coinScore;
-		this.lifeScore = lifeScore;
 	}
 }
