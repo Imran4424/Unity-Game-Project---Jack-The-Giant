@@ -214,7 +214,7 @@ public class CloudSpawner : MonoBehaviour
 							if (!Collectables[random].activeInHierarchy)
 							{
 								Vector3 coin_position = clouds[i].transform.position;
-								coin_position.y += 0.7f;
+								//coin_position.y += 0.7f;
 
 								if (Collectables[random].tag == "Life")
 								{

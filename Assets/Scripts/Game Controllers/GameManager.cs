@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour {
 
 	public static GameManager instance;
 
+	[HideInInspector]
+	public bool gameStartedFormMenu, gameStartedAfterPlayerDied;
+
 	void Awake()
 	{
 		MakeSingleton();
@@ -13,6 +16,9 @@ public class GameManager : MonoBehaviour {
 
 
 
+	/*
+	* It's singleton pattern in C# scripts
+	*/
 	void MakeSingleton()
 	{
 		if (instance != null)
