@@ -33,9 +33,9 @@ public class GameManager : MonoBehaviour
 	{
 		if(sceneName.name == "GamePlay")
 		{
-			if (true)
+			if (!GameManager.instance.gameStartedAfterPlayerDied)
 			{
-				
+				scoe
 			}
 		}
 	}
