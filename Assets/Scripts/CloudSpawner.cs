@@ -33,6 +33,10 @@ public class CloudSpawner : MonoBehaviour
 
 		player = GameObject.Find ("Player");
 
+		Vector3 temp = new Vector3(0,0,0);
+
+		player.transform.position = temp;
+
 		for (int i = 0; i < Collectables.Length; i++)
 		{
 			Collectables[i].SetActive (false);
@@ -144,7 +148,7 @@ public class CloudSpawner : MonoBehaviour
 				playerTemp = cloudsInGame[i].transform.position;
 			}
 
-			playerTemp.y += 0.8f;
+			playerTemp.y += 0.35f;
 
 			player.transform.position = playerTemp;
 		}
