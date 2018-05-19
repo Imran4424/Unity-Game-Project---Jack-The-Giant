@@ -8,7 +8,10 @@ public class GameManager : MonoBehaviour {
 
 	void MakeSingleton()
 	{
-		
+		if (true)
+		{
+			
+		}
 	}
 
 }
