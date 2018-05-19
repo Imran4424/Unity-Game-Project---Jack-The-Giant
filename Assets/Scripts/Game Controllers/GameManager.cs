@@ -91,9 +91,9 @@ public class GameManager : MonoBehaviour
 			this.coinScore = coinScore;
 			this.lifeScore = lifeScore;
 
-			GamePlayController.instance.setScore(score);
+			/* GamePlayController.instance.setScore(score);
 			GamePlayController.instance.setCoinScore(coinScore);
-			GamePlayController.instance.setLifeScore(lifeScore);
+			GamePlayController.instance.setLifeScore(lifeScore); */
 
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = true;
