@@ -14,7 +14,7 @@ public class MainMenuController : MonoBehaviour
 
 	public void StartGame ()
 	{
-		GameManager.instance.gameStartedFormMenu = true;
+		GameManager.instance.gameStartedFormMainMenu = true;
 
 		SceneManager.LoadScene ("GamePlay", LoadSceneMode.Single);
 	}

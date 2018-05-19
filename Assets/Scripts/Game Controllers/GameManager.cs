@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 	public static GameManager instance;
 
 	[HideInInspector]
-	public bool gameStartedFormMenu, gameStartedAfterPlayerDied;
+	public bool gameStartedFormMainMenu, gameStartedAfterPlayerDied;
 
 	[HideInInspector]
 	public int score = 0, coinScore = 0, lifeScore = 0;
