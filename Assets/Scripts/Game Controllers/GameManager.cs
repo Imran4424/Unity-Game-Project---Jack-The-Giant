@@ -15,11 +15,13 @@ public class GameManager : MonoBehaviour {
 	void Awake()
 	{
 		MakeSingleton();
+
+		
 	}
 
 	void OnLoadCallback()
 	{
-		
+
 	}
 
 
