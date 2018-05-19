@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 		SceneManager.sceneLoaded += LevelFinishedLoading;
 	}
 
-	void LevelFinishedLoading ()
+	void LevelFinishedLoading (Scene sceneName, LoadSceneMode mode)
 	{
 
 	}
