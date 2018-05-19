@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
 		MakeSingleton();
 	}
 
-	void On
+	void OnLoad
 
 
 	/*
