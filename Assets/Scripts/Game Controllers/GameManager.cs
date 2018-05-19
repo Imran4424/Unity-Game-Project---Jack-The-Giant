@@ -6,6 +6,13 @@ public class GameManager : MonoBehaviour {
 
 	public static GameManager instance;
 
+	void Awake()
+	{
+		MakeSingleton();
+	}
+
+
+
 	void MakeSingleton()
 	{
 		if (instance != null)
