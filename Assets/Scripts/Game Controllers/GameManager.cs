@@ -78,7 +78,8 @@ public class GameManager : MonoBehaviour
 	{
 		if (lifeScore < 0)
 		{
-			
+			gameStartedFormMainMenu = false;
+			gameStartedAfterPlayerDied = false;
 		}
 
 		this.score = score;
