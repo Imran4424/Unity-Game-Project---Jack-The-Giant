@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
 	{
 		MakeSingleton();
 
-		
+		SceneManager.sceneLoaded += 
 	}
 
 	void OnLoadCallback()
