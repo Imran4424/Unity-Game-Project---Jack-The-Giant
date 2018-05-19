@@ -46,14 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackGroundCollector.cs" />
-     <Compile Include="Assets\Scripts\BackGroundScript.cs" />
-     <Compile Include="Assets\Scripts\BackGroundSpawner.cs" />
+     <Compile Include="Assets\Scripts\Background script\BackGroundCollector.cs" />
+     <Compile Include="Assets\Scripts\Background script\BackGroundScript.cs" />
+     <Compile Include="Assets\Scripts\Background script\BackGroundSpawner.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\CloudCollector.cs" />
      <Compile Include="Assets\Scripts\CloudSpawner.cs" />
      <Compile Include="Assets\Scripts\Collectable Script\CollectableScript.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\AboutController.cs" />
+     <Compile Include="Assets\Scripts\Game Controllers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\GamePlayController.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\HighScoreController.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\MainMenuController.cs" />
