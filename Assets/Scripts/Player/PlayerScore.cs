@@ -40,7 +40,7 @@ public class PlayerScore : MonoBehaviour
 
 	void setLife(int life)
 	{
-		
+		lifeScoreCount = life;
 	}
 
 	// Update is called once per frame
