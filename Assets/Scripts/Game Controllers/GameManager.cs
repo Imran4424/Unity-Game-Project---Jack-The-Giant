@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 	public bool gameStartedFormMenu, gameStartedAfterPlayerDied;
 
 	[HideInInspector]
-	public int score, coinScore, lifeScore;
+	public int score = 0, coinScore = 0, lifeScore = 0;
 
 	void Awake ()
 	{
