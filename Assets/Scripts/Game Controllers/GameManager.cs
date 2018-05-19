@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 				coinScore = 0;
 				lifeScore = 2;
 
-				GamePlayController.instance.se
+				GamePlayController.instance.setScore(score);
 			}
 			else
 			{
