@@ -81,6 +81,10 @@ public class GameManager : MonoBehaviour
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
 		}
+		else
+		{
+			
+		}
 
 		this.score = score;
 		this.coinScore = coinScore;
