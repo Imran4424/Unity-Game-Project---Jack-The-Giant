@@ -21,4 +21,10 @@ public static class GamePreferences
 
 
 	public static string IsMusicOn = "IsMusicOn";
+
+	/*
+	We are going to use intergers to represent boolean variables
+	0 - false, 1 - true
+	*/
+
 }
