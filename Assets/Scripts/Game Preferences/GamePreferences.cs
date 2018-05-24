@@ -13,10 +13,12 @@ public static class GamePreferences
 	public static string EasyDifficultyScore = "EasyDifficultyScore";
 	public static string MediumDifficultyScore = "MediumDifficultyScore";
 	public static string HardDifficultyScore = "HardDifficultyScore";
-	
+
 
 	public static string EasyDifficultyCoinScore = "EasyDifficultyCoinScore";
 	public static string MediumDifficultyCoinScore = "MediumDifficultyCoinScore";
 	public static string HardDifficultyCoinScore = "HardDifficultyCoinScore";
 
+
+	public static string IsMusicOn = "IsMusicOn";
 }
