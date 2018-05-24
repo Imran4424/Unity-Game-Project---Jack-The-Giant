@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GamePreferences : MonoBehaviour {
+public class GamePreferences{
 
 	
 }
