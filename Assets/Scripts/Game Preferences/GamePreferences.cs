@@ -6,18 +6,17 @@ public static class GamePreferences
 {
 
 	public static string EasyDifficulty = "EasyDifficulty";
-	public static string MediumDifficulty = "EasyDifficulty";
-	public static string HardDifficulty = "EasyDifficulty";
+	public static string MediumDifficulty = "MediumDifficulty";
+	public static string HardDifficulty = "HardDifficulty";
 
 
-	public static string EasyDifficultyScore = "EasyDifficulty";
-	public static string MediumDifficultyScore = "EasyDifficulty";
-	public static string HardDifficultyScore = "EasyDifficulty";
+	public static string EasyDifficultyScore = "EasyDifficultyScore";
+	public static string MediumDifficultyScore = "MediumDifficultyScore";
+	public static string HardDifficultyScore = "HardDifficultyScore";
+	
 
-
-
-	public static string EasyDifficultyCoinScore = "EasyDifficulty";
-	public static string MediumDifficultyCoinScore = "EasyDifficulty";
-	public static string HardDifficultyCoinScore = "EasyDifficulty";
+	public static string EasyDifficultyCoinScore = "EasyDifficultyCoinScore";
+	public static string MediumDifficultyCoinScore = "MediumDifficultyCoinScore";
+	public static string HardDifficultyCoinScore = "HardDifficultyCoinScore";
 
 }
