@@ -6,7 +6,6 @@ public class PlayerScore : MonoBehaviour
 {
 	public static PlayerScore instance;
 
-
 	[SerializeField]
 	private AudioClip coinClip, lifeClip;
 
@@ -22,10 +21,10 @@ public class PlayerScore : MonoBehaviour
 	void Awake ()
 	{
 		cameraScript = Camera.main.GetComponent<CameraScript> ();
-		MakeInstance();
+		MakeInstance ();
 	}
 
-	void MakeInstance()
+	void MakeInstance ()
 	{
 		if (instance == null)
 		{
@@ -40,17 +39,17 @@ public class PlayerScore : MonoBehaviour
 		count_Score = true;
 	}
 
-	public void setScore(int score)
+	public void setScore (int score)
 	{
 		scoreCount = score;
 	}
 
-	public void setCoin(int coin)
+	public void setCoin (int coin)
 	{
 		coinScoreCount = coin;
 	}
 
-	public void setLife(int life)
+	public void setLife (int life)
 	{
 		lifeScoreCount = life;
 	}
@@ -116,7 +115,7 @@ public class PlayerScore : MonoBehaviour
 
 		}
 
-		if (target.tag == "Deadly")
+		if (target.tag == "Deadly" || target.tag == "Bounds")
 		{
 			cameraScript.movecamera = false;
 			count_Score = false;
