@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
 				}
 			}
 
-			if (GamePreferences)
+			if (GamePreferences.GetMediumDifficultyState == 1)
 			{
 				
 			}
