@@ -12,7 +12,7 @@ public class OptionsController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-
+		SetDifficulty();
 	}
 
 	void SetInitialDifficulty (string difficulty)
