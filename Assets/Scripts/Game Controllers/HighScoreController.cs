@@ -17,7 +17,8 @@ public class HighScoreController : MonoBehaviour {
 	
 	void SetScore(int score, int coins)
 	{
-		
+		scoreText.text = score.ToString();
+		coinText.text = coins.ToString();
 	}
 	
 	public void BackButton()
