@@ -9,9 +9,9 @@ public static class GamePreferences
 	public static string MediumDifficulty = "MediumDifficulty";
 	public static string HardDifficulty = "HardDifficulty";
 
-	public static string EasyDifficultyScore = "EasyDifficultyScore";
-	public static string MediumDifficultyScore = "MediumDifficultyScore";
-	public static string HardDifficultyScore = "HardDifficultyScore";
+	public static string EasyDifficultyHighScore = "EasyDifficultyHighScore";
+	public static string MediumDifficultyHighScore = "MediumDifficultyHighScore";
+	public static string HardDifficultyHighScore = "HardDifficultyHighScore";
 
 	public static string EasyDifficultyCoinScore = "EasyDifficultyCoinScore";
 	public static string MediumDifficultyCoinScore = "MediumDifficultyCoinScore";
@@ -64,5 +64,4 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.HardDifficulty, state);
 	}
 
-	
 }
