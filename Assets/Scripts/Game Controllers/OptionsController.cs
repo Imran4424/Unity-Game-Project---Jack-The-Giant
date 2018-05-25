@@ -59,10 +59,9 @@ public class OptionsController : MonoBehaviour
 
 	}
 
-	// Update is called once per frame
-	void Update ()
+	public void EasyDifficulty()
 	{
-
+		
 	}
 
 	public void BackButton ()
