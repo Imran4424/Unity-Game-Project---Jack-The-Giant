@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
 					GamePreferences.SetEasyDifficultyHighScore(score);
 				}
 
-				if (coinHighScore )
+				if (coinHighScore < coinScore)
 				{
 					
 				}
