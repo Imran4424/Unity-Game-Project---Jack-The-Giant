@@ -129,6 +129,8 @@ public class GameManager : MonoBehaviour
 				{
 					GamePreferences.SetMediumDifficultyHighScore(score);
 				}
+
+				
 			}
 
 			gameStartedFormMainMenu = false;
