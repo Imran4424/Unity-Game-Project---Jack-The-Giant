@@ -81,6 +81,17 @@ public class OptionsController : MonoBehaviour
 		HardSign.SetActive (false);
 	}
 
+	public void EasyDifficulty ()
+	{
+		GamePreferences.SetEasyDifficultyState (1);
+		GamePreferences.SetMediumDifficultyState (0);
+		GamePreferences.SetHardDifficultyState (0);
+
+		easySign.SetActive (true);
+		mediumSign.SetActive (false);
+		HardSign.SetActive (false);
+	}
+
 	public void BackButton ()
 	{
 		SceneManager.LoadScene ("MainMenu", LoadSceneMode.Single);
