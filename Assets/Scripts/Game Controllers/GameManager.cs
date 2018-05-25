@@ -57,6 +57,12 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
+
+	void InitializeVariables()
+	{
+		
+	}
+
 	/*
 	 * It's singleton pattern in C# scripts
 	 */
