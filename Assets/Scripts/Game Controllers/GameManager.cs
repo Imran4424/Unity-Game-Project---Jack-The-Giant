@@ -113,6 +113,11 @@ public class GameManager : MonoBehaviour
 				{
 					GamePreferences.SetEasyDifficultyHighScore(score);
 				}
+
+				if (true)
+				{
+					
+				}
 			}
 
 			gameStartedFormMainMenu = false;
