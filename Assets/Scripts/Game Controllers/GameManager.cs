@@ -143,8 +143,10 @@ public class GameManager : MonoBehaviour
 
 				if (highScore < score)
 				{
-					
+					GamePreferences.SetHardDifficultyHighScore(score);
 				}
+
+				
 			}
 
 			gameStartedFormMainMenu = false;
