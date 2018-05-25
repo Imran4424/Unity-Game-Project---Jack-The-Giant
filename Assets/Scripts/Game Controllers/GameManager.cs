@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
 		{
 			if(GamePreferences.GetEasyDifficultyState() == 1)
 			{
-				
+				int highScore = GamePreferences.GetEasyDifficultyHighScore();
 			}
 
 			gameStartedFormMainMenu = false;
