@@ -85,6 +85,7 @@ public static class GamePreferences
 	Difficult
 	*/
 
+	//Easy
 	public static int GetEasyDifficultyHighScore ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.EasyDifficultyHighScore);
@@ -95,6 +96,7 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.EasyDifficultyHighScore, score);
 	}
 
+	//Medium
 	public static int GetMediumDifficultyHighScore ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.MediumDifficultyHighScore);
@@ -105,6 +107,7 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.MediumDifficultyHighScore, score);
 	}
 
+	//Hard
 	public static int GetHardDifficultyHighScore ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.HardDifficultyHighScore);
