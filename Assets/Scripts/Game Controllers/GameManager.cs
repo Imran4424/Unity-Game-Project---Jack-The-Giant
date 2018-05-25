@@ -136,7 +136,7 @@ public class GameManager : MonoBehaviour
 				}
 			}
 
-			if (true)
+			if (GamePreferences.GetHardDifficultyState() == 1)
 			{
 				
 			}
