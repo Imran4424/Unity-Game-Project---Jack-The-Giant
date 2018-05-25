@@ -24,6 +24,10 @@ public static class GamePreferences
 	0 - false, 1 - true
 	*/
 
+	/*
+	Setting and Getting Music states
+	*/
+
 	public static int GetMusicState ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.IsMusicOn);
@@ -34,6 +38,14 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.IsMusicOn, state);
 	}
 
+	/*
+	setting and getting - State
+	Easy
+	Medium
+	Difficult
+	*/
+
+	//Easy
 	public static int GetEasyDifficultyState ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.EasyDifficulty);
@@ -44,6 +56,7 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.EasyDifficulty, state);
 	}
 
+	//Medium
 	public static int GetMediumDifficultyState ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.MediumDifficulty);
@@ -54,6 +67,7 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.MediumDifficulty, state);
 	}
 
+	//Hard
 	public static int GetHardDifficultyState ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.HardDifficulty);
@@ -63,6 +77,13 @@ public static class GamePreferences
 	{
 		PlayerPrefs.SetInt (GamePreferences.HardDifficulty, state);
 	}
+
+	/*
+	setting and getting - State
+	Easy
+	Medium
+	Difficult
+	*/
 
 	public static int GetEasyDifficultyHighScore ()
 	{
