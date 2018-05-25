@@ -61,7 +61,11 @@ public class OptionsController : MonoBehaviour
 
 	public void EasyDifficulty()
 	{
-		
+		GamePreferences.SetEasyDifficultyState(1);
+		GamePreferences.SetMediumDifficultyState(0);
+		GamePreferences.SetHardDifficultyState(0);
+
+		easySign.SetActive(true);
 	}
 
 	public void BackButton ()
