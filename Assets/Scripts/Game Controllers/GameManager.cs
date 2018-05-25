@@ -130,7 +130,7 @@ public class GameManager : MonoBehaviour
 					GamePreferences.SetMediumDifficultyHighScore(score);
 				}
 
-				if (true)
+				if (GamePreferences.GetHardDifficultyState() == 1)
 				{
 					
 				}
