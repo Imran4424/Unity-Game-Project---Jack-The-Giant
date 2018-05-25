@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
 
 		if (lifeScore < 0)
 		{
-			
+			if(GamePreferences)
 
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
