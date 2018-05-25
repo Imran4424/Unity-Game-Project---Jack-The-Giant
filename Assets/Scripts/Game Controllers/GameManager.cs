@@ -120,7 +120,10 @@ public class GameManager : MonoBehaviour
 				}
 			}
 
-			
+			if (true)
+			{
+				
+			}
 
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
