@@ -15,12 +15,11 @@ public class HighScoreController : MonoBehaviour {
 		
 	}
 	
-	// Update is called once per frame
-	void Update () 
+	void SetScore(int score, int coins)
 	{
 		
 	}
-
+	
 	public void BackButton()
 	{
 		SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
