@@ -104,14 +104,7 @@ public class PlayerScore : MonoBehaviour
 
 		if (target.tag == "Bounds")
 		{
-			cameraScript.movecamera = false;
-			count_Score = false;
-
-			transform.position = new Vector3 (500, 500, 0);
-
-			lifeScoreCount--;
-
-			GameManager.instance.CheckGameStatus (scoreCount, coinScoreCount, lifeScoreCount);
+			
 
 		}
 
