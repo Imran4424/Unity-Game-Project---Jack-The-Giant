@@ -118,6 +118,14 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.HardDifficultyHighScore, score);
 	}
 
+	/*
+	setting and getting - CoinScore
+	Easy
+	Medium
+	Difficult
+	*/
+
+	//Easy
 	public static int GetEasyDifficultyCoinScore ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.EasyDifficultyCoinScore);
@@ -128,6 +136,7 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.EasyDifficultyCoinScore, coins);
 	}
 
+	//Medium
 	public static int GetMediumDifficultyCoinScore ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.MediumDifficultyCoinScore);
@@ -138,6 +147,7 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.MediumDifficultyCoinScore, coins);
 	}
 
+	//Hard
 	public static int GetHardDifficultyCoinScore ()
 	{
 		return PlayerPrefs.GetInt (GamePreferences.HardDifficultyCoinScore);
