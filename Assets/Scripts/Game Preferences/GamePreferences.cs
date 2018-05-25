@@ -94,4 +94,14 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.HardDifficultyHighScore, score);
 	}
 
+	public static int GetEasyDifficultyCoinScore ()
+	{
+		return PlayerPrefs.GetInt (GamePreferences.EasyDifficultyCoinScore);
+	}
+
+	public static void SetEasyDifficultyCoinScore (int coins)
+	{
+		PlayerPrefs.SetInt (GamePreferences.EasyDifficultyCoinScore, coins);
+	}
+
 }
