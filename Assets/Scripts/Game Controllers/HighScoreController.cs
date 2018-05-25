@@ -6,8 +6,12 @@ using UnityEngine.UI;
 
 public class HighScoreController : MonoBehaviour {
 
+	[SerializeField]
+	private Text scoreText, coinText;
+
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	
