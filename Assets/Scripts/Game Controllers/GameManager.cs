@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
 				int highScore = GamePreferences.GetEasyDifficultyHighScore();
 				int coinHighScore = GamePreferences.GetEasyDifficultyCoinScore();
 
-				if (true)
+				if ()
 				{
 					
 				}
