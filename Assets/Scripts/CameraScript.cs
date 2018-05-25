@@ -11,6 +11,9 @@ public class CameraScript : MonoBehaviour {
 
 
 	private float easySpeed = 3.2f;
+	private float mediumSpeed = 3.7f
+
+	
 
 
 
