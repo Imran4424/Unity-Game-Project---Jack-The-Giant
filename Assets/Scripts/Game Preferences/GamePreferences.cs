@@ -79,7 +79,7 @@ public static class GamePreferences
 	}
 
 	/*
-	setting and getting - State
+	setting and getting - HighScore
 	Easy
 	Medium
 	Difficult
