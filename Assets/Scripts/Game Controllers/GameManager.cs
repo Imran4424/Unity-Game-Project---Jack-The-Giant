@@ -127,7 +127,7 @@ public class GameManager : MonoBehaviour
 
 				if (highScore < score)
 				{
-					
+					GamePreferences.SetMediumDifficultyHighScore(score);
 				}
 			}
 
