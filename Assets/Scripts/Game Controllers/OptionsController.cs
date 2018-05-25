@@ -40,6 +40,11 @@ public class OptionsController : MonoBehaviour
 		}
 	}
 
+	void SetDifficulty()
+	{
+		
+	}
+
 	// Update is called once per frame
 	void Update ()
 	{
