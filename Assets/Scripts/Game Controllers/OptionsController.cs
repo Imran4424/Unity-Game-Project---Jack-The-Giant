@@ -5,8 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class OptionsController : MonoBehaviour {
 
+	[SerializeField]
+	private GameObject easySign, mediumSign, HardSign;
+
 	// Use this for initialization
 	void Start () {
+		
+	}
+
+	void SetInitialDifficulty()
+	{
 		
 	}
 	
