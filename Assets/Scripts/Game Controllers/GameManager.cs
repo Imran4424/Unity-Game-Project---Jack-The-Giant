@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
 				}
 			}
 
-			if ()
+			if (GamePreferences)
 			{
 				
 			}
