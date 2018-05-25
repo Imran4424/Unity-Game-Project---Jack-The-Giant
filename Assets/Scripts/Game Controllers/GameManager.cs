@@ -123,6 +123,7 @@ public class GameManager : MonoBehaviour
 			if (GamePreferences.GetMediumDifficultyState() == 1)
 			{
 				int highScore = GamePreferences.GetMediumDifficultyHighScore();
+				int coinHighScore = GamePreferences.GetMediumDifficultyCoinScore();
 			}
 
 			gameStartedFormMainMenu = false;
