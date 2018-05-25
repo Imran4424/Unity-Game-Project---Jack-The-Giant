@@ -64,4 +64,8 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.HardDifficulty, state);
 	}
 
+	public static int GetEasyDifficultyHighScore ()
+	{
+		return PlayerPrefs.GetInt (GamePreferences.EasyDifficultyHighScore);
+	}
 }
