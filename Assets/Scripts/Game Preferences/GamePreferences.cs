@@ -32,4 +32,9 @@ public static class GamePreferences
 		return PlayerPrefs.GetInt(GamePreferences.IsMusicOn);
 	}
 
+	public static void SetMusicState(int state)
+	{
+		PlayerPrefs.SetInt(GamePreferences.IsMusicOn,state);
+	}
+
 }
