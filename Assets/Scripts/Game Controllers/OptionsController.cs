@@ -12,7 +12,7 @@ public class OptionsController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		SetDifficulty();
+		SetDifficulty ();
 	}
 
 	void SetInitialDifficulty (string difficulty)
@@ -59,15 +59,26 @@ public class OptionsController : MonoBehaviour
 
 	}
 
-	public void EasyDifficulty()
+	public void EasyDifficulty ()
 	{
-		GamePreferences.SetEasyDifficultyState(1);
-		GamePreferences.SetMediumDifficultyState(0);
-		GamePreferences.SetHardDifficultyState(0);
+		GamePreferences.SetEasyDifficultyState (1);
+		GamePreferences.SetMediumDifficultyState (0);
+		GamePreferences.SetHardDifficultyState (0);
 
-		easySign.SetActive(true);
-		mediumSign.SetActive(false);
-		HardSign.SetActive(false);
+		easySign.SetActive (true);
+		mediumSign.SetActive (false);
+		HardSign.SetActive (false);
+	}
+
+	public void MediumDifficulty ()
+	{
+		GamePreferences.SetEasyDifficultyState (0);
+		GamePreferences.SetMediumDifficultyState (1);
+		GamePreferences.SetHardDifficultyState (0);
+
+		easySign.SetActive (false);
+		mediumSign.SetActive (true);
+		HardSign.SetActive (false);
 	}
 
 	public void BackButton ()
