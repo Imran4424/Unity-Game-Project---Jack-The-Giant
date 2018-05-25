@@ -130,7 +130,10 @@ public class GameManager : MonoBehaviour
 					GamePreferences.SetMediumDifficultyHighScore(score);
 				}
 
-				
+				if (true)
+				{
+					
+				}
 			}
 
 			gameStartedFormMainMenu = false;
