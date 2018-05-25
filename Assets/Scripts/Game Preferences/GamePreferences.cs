@@ -27,4 +27,9 @@ public static class GamePreferences
 	0 - false, 1 - true
 	*/
 
+	public static void GetMusicState()
+	{
+		return PlayerPrefs.GetInt(GamePreferences.IsMusicOn);
+	}
+
 }
