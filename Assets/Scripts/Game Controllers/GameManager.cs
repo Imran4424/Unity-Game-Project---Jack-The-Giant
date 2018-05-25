@@ -104,7 +104,10 @@ public class GameManager : MonoBehaviour
 
 		if (lifeScore < 0)
 		{
-			if(GamePreferences.GetEasyDifficultyState)
+			if(GamePreferences.GetEasyDifficultyState() == 1)
+			{
+				
+			}
 
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
