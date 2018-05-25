@@ -69,9 +69,19 @@ public static class GamePreferences
 		return PlayerPrefs.GetInt (GamePreferences.EasyDifficultyHighScore);
 	}
 
-	public static void setEasyDifficultyHighScore (int score)
+	public static void SetEasyDifficultyHighScore (int score)
 	{
 		PlayerPrefs.SetInt (GamePreferences.EasyDifficultyHighScore, score);
+	}
+
+	public static int GetMediumDifficultyHighScore ()
+	{
+		return PlayerPrefs.GetInt (GamePreferences.MediumDifficultyHighScore);
+	}
+
+	public static void SetMediumDifficultyHighScore (int score)
+	{
+		PlayerPrefs.SetInt (GamePreferences.MediumDifficultyHighScore, score);
 	}
 
 }
