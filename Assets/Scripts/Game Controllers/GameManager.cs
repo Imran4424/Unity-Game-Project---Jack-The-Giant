@@ -132,7 +132,7 @@ public class GameManager : MonoBehaviour
 
 				if (coinHighScore < coinScore)
 				{
-					
+					GamePreferences.SetMediumDifficultyCoinScore(coinScore);
 				}
 			}
 
