@@ -56,7 +56,7 @@ public static class GamePreferences
 
 	public static int GetHardDifficultyState ()
 	{
-		return PlayerPrefs.GetInt (GamePreferences.MediumDifficulty);
+		return PlayerPrefs.GetInt (GamePreferences.HardDifficulty);
 	}
 
 	public static void SetHardDifficultyState (int state)
@@ -64,4 +64,5 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.HardDifficulty, state);
 	}
 
+	
 }
