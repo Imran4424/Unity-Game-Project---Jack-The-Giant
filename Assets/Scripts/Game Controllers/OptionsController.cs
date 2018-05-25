@@ -40,9 +40,23 @@ public class OptionsController : MonoBehaviour
 		}
 	}
 
-	void SetDifficulty()
+	void SetDifficulty ()
 	{
-		
+		if (GamePreferences.GetEasyDifficultyState () == 1)
+		{
+			SetInitialDifficulty ("easy");
+		}
+
+		if (GamePreferences.GetMediumDifficultyState () == 1)
+		{
+			SetInitialDifficulty ("medium");
+		}
+
+		if (GamePreferences.GetHardDifficultyState () == 1)
+		{
+			SetInitialDifficulty ("hard");
+		}
+
 	}
 
 	// Update is called once per frame
