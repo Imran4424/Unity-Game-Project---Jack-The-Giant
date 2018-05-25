@@ -34,9 +34,19 @@ public static class GamePreferences
 		PlayerPrefs.SetInt (GamePreferences.IsMusicOn, state);
 	}
 
-	public static int GetEasyDifficultyState()
+	public static int GetEasyDifficultyState ()
 	{
-		return PlayerPrefs.GetInt(GamePreferences.EasyDifficulty);
+		return PlayerPrefs.GetInt (GamePreferences.EasyDifficulty);
+	}
+
+	public static void SetEasyDifficultyState (int state)
+	{
+		PlayerPrefs.SetInt (GamePreferences.EasyDifficulty, state);
+	}
+
+	public static int GetMediumDifficultyState ()
+	{
+		return PlayerPrefs.GetInt (GamePreferences.EasyDifficulty);
 	}
 
 }
