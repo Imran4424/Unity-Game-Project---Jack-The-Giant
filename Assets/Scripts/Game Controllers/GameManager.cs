@@ -141,7 +141,10 @@ public class GameManager : MonoBehaviour
 				int highScore = GamePreferences.GetHardDifficultyHighScore();
 				int coinHighScore = GamePreferences.GetHardDifficultyCoinScore();
 
-				
+				if (true)
+				{
+					
+				}
 			}
 
 			gameStartedFormMainMenu = false;
