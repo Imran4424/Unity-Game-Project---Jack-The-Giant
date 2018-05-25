@@ -19,6 +19,11 @@ public class GameManager : MonoBehaviour
 		MakeSingleton ();
 	}
 
+	void Start()
+	{
+		InitializeVariables();
+	}
+
 	void OnEnable ()
 	{
 		SceneManager.sceneLoaded += LevelFinishedLoading;
