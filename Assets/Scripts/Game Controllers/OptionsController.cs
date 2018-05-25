@@ -81,15 +81,15 @@ public class OptionsController : MonoBehaviour
 		HardSign.SetActive (false);
 	}
 
-	public void EasyDifficulty ()
+	public void HardDifficulty ()
 	{
-		GamePreferences.SetEasyDifficultyState (1);
+		GamePreferences.SetEasyDifficultyState (0);
 		GamePreferences.SetMediumDifficultyState (0);
-		GamePreferences.SetHardDifficultyState (0);
+		GamePreferences.SetHardDifficultyState (1);
 
-		easySign.SetActive (true);
+		easySign.SetActive (false);
 		mediumSign.SetActive (false);
-		HardSign.SetActive (false);
+		HardSign.SetActive (true);
 	}
 
 	public void BackButton ()
