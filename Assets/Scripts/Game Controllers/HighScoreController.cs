@@ -20,6 +20,11 @@ public class HighScoreController : MonoBehaviour {
 		scoreText.text = score.ToString();
 		coinText.text = coins.ToString();
 	}
+
+	void SetScoreBasedOnDifficulty()
+	{
+		
+	}
 	
 	public void BackButton()
 	{
