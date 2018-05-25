@@ -57,10 +57,24 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-
-	void InitializeVariables()
+	void InitializeVariables ()
 	{
-		
+		if (!PlayerPrefs.HasKey ("Game Initialized"))
+		{
+			GamePreferences.SetEasyDifficultyState (1);
+			GamePreferences.SetEasyDifficultyHighScore (0);
+			GamePreferences.SetEasyDifficultyCoinScore (0);
+
+			GamePreferences.SetMediumDifficultyState (0);
+			GamePreferences.SetMediumDifficultyHighScore (0);
+			GamePreferences.SetMediumDifficultyCoinScore (0);
+
+			GamePreferences.SetHardDifficultyState (0);
+			GamePreferences.SetHardDifficultyHighScore (0);
+			GamePreferences.SetHardDifficultyCoinScore (0);
+
+			PlayerPrefs.SetInt("Game Initialized",777);
+		}
 	}
 
 	/*
@@ -79,8 +93,7 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-
-	public void CheckGameStatus(int score, int coinScore, int lifeScore)
+	public void CheckGameStatus (int score, int coinScore, int lifeScore)
 	{
 		//Debug.Log("lifeScore = " + lifeScore);
 
@@ -89,7 +102,7 @@ public class GameManager : MonoBehaviour
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = false;
 
-			GamePlayController.instance.gameOvershowPanel(score,coinScore);
+			GamePlayController.instance.gameOvershowPanel (score, coinScore);
 		}
 		else
 		{
@@ -104,7 +117,7 @@ public class GameManager : MonoBehaviour
 			gameStartedFormMainMenu = false;
 			gameStartedAfterPlayerDied = true;
 
-			GamePlayController.instance.RestartTheGame();		
+			GamePlayController.instance.RestartTheGame ();
 		}
 
 	}
