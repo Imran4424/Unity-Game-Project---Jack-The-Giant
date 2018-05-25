@@ -102,7 +102,6 @@ public class PlayerScore : MonoBehaviour
 			target.gameObject.SetActive (false);
 		}
 
-		
 
 		if (target.tag == "Deadly" || target.tag == "Bounds")
 		{
