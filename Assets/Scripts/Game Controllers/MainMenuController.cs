@@ -6,6 +6,12 @@ using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
+	[SerializeField]
+	private Button musicButton;
+
+	[SerializeField]
+	private Sprite[] musicIcons;
+
 
 	// Use this for initialization
 	void Start ()
