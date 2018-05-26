@@ -13,7 +13,7 @@ public class HighScoreController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-
+		SetScoreBasedOnDifficulty();
 	}
 
 	void SetScore (int score, int coins)
