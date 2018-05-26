@@ -23,7 +23,10 @@ public class CameraScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		
+		if (GamePreferences.GetEasyDifficultyState() == 1)
+		{
+			maxSpeed = easySpeed;
+		}
 
 		movecamera = true;
 	}
