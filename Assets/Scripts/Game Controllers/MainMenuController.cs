@@ -15,7 +15,7 @@ public class MainMenuController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		CheckToPlayTheMusic();
+		CheckToPlayTheMusic ();
 	}
 
 	/*
@@ -67,12 +67,23 @@ public class MainMenuController : MonoBehaviour
 
 	public void QuitMenu ()
 	{
-
+		Application.Quit ();
 	}
 
 	public void MusicButton ()
 	{
-
+		if (GamePreferences.GetMusicState () == 0)
+		{
+			GamePreferences.SetMusicState (1);
+			MusicController.instance.PlayMusic (true);
+			musicBtns.image.sprite = musicIcons[1];
+		}
+		else if (GamePreferences.GetMusicState () == 1)
+		{
+			GamePreferences.SetMusicState (0);
+			MusicController.instance.PlayMusic (false);
+			musicBtns.image.sprite = musicIcons[0];
+		}
 	}
 
 }
