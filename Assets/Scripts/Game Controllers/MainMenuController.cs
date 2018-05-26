@@ -34,6 +34,7 @@ public class MainMenuController : MonoBehaviour
 		{
 			MusicController.instance.PlayMusic (true);
 			musicBtns.image.sprite = musicIcons[1];
+
 		}
 		else
 		{
@@ -77,6 +78,8 @@ public class MainMenuController : MonoBehaviour
 			GamePreferences.SetMusicState (1);
 			MusicController.instance.PlayMusic (true);
 			musicBtns.image.sprite = musicIcons[1];
+
+			Debug.Log ("I am here");
 		}
 		else if (GamePreferences.GetMusicState () == 1)
 		{
