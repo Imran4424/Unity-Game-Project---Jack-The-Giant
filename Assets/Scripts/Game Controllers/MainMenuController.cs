@@ -10,7 +10,7 @@ public class MainMenuController : MonoBehaviour
 	private Button musicButton;
 
 	[SerializeField]
-	private Sprite[] musicIcons; 
+	private Sprite[] musicIcons;
 
 
 	// Use this for initialization
