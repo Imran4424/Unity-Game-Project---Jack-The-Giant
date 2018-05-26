@@ -6,13 +6,13 @@ public class CameraScript : MonoBehaviour {
 
 
 	private float speed = 1f;
-	private float acceleration = 0.2f;
+	private float acceleration = 0.1f;
 	private float maxSpeed = 3.2f;
 
 
 	private float easySpeed = 3.2f;
 	private float mediumSpeed = 3.7f;
-	private float hardSpeed = 4.1f;
+	private float hardSpeed = 4.2f;
 
 
 
@@ -23,6 +23,8 @@ public class CameraScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		
+
 		movecamera = true;
 	}
 	
