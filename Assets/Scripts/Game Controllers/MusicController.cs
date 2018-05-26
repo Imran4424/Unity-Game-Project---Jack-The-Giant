@@ -42,5 +42,12 @@ public class MusicController : MonoBehaviour {
 				audioSource.Play();
 			}
 		}
+		else
+		{
+			if (audioSource.isPlaying)
+			{
+				audioSource.Stop();
+			}
+		}
 	}
 }
