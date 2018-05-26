@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class MusicController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	void Awake()
+	{
 		
 	}
+	
 	
 	// Update is called once per frame
 	void Update () {
