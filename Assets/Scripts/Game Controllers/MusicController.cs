@@ -10,9 +10,14 @@ public class MusicController : MonoBehaviour {
 
 	void Awake()
 	{
-		
+		MakeSingleton();
 	}
 
+
+
+	/*
+	Making a C# singleton script
+	*/
 	void MakeSingleton()
 	{
 		if (instance != null)
