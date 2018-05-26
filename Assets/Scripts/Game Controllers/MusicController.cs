@@ -17,7 +17,12 @@ public class MusicController : MonoBehaviour {
 	{
 		if (instance != null)
 		{
-			
+			Destroy(gameObject);
+		}
+		else
+		{
+			instance = this;
+			DontDestroyOnLoad(gameObject);
 		}
 	}
 	
