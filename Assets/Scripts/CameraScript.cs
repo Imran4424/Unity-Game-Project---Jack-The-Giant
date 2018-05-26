@@ -29,9 +29,9 @@ public class CameraScript : MonoBehaviour
 			maxSpeed = mediumSpeed;
 		}
 
-		if (GamePreferences.GetEasyDifficultyState () == 1)
+		if (GamePreferences.GetHardDifficultyState() == 1)
 		{
-			maxSpeed = easySpeed;
+			maxSpeed = hardSpeed;
 		}
 
 		movecamera = true;
